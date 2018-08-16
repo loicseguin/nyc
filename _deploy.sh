@@ -1,8 +1,4 @@
-rm -rf book-output
-git clone -b gh-pages \
-    git@github.com:loicseguin/nyc.git \
-    book-output
-cd book-output
+cd book-website
 git rm -rf *
 cp -r ../_book/* ./
 git add --all *
