@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html  lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ondes, optique et physique moderne</title>
+  <meta name="description" content="Notes de cours pour 203-NYC-05, hiver 2018">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Ondes, optique et physique moderne" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Notes de cours pour 203-NYC-05, hiver 2018" />
+  <meta name="github-repo" content="loicseguin/nyc" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ondes, optique et physique moderne" />
+  
+  <meta name="twitter:description" content="Notes de cours pour 203-NYC-05, hiver 2018" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="oscillations.html">
+<link rel="next" href="ondes-sonores.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">203-NYC-05</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Résumé du plan de cours</a></li>
+<li class="chapter" data-level="" data-path="calendrier.html"><a href="calendrier.html"><i class="fa fa-check"></i>Calendrier</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html"><i class="fa fa-check"></i>Rappels de trigonométrie</a><ul>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#rapports-trigonometriques"><i class="fa fa-check"></i>Rapports trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#cercle-unitaire-et-identites-trigonometriques"><i class="fa fa-check"></i>Cercle unitaire et identités trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#fonction-trigonometriques"><i class="fa fa-check"></i>Fonction trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#fonctions-trigonometriques-inverses"><i class="fa fa-check"></i>Fonctions trigonométriques inverses</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#exercices"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="oscillations.html"><a href="oscillations.html"><i class="fa fa-check"></i><b>1</b> Oscillations</a><ul>
+<li class="chapter" data-level="" data-path="oscillations.html"><a href="oscillations.html#exercices-1"><i class="fa fa-check"></i>Exercices</a></li>
+<li class="chapter" data-level="1.1" data-path="oscillations.html"><a href="oscillations.html#resume-des-definitions"><i class="fa fa-check"></i><b>1.1</b> Résumé des définitions</a></li>
+<li class="chapter" data-level="1.2" data-path="oscillations.html"><a href="oscillations.html#evolution-temporelle-dun-mhs"><i class="fa fa-check"></i><b>1.2</b> Évolution temporelle d’un MHS</a></li>
+<li class="chapter" data-level="1.3" data-path="oscillations.html"><a href="oscillations.html#systeme-bloc-ressort"><i class="fa fa-check"></i><b>1.3</b> Système bloc-ressort</a></li>
+<li class="chapter" data-level="1.4" data-path="oscillations.html"><a href="oscillations.html#energie-dans-un-systeme-bloc-ressort"><i class="fa fa-check"></i><b>1.4</b> Énergie dans un système bloc ressort</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="ondes.html"><a href="ondes.html"><i class="fa fa-check"></i><b>2</b> Ondes</a><ul>
+<li class="chapter" data-level="" data-path="ondes.html"><a href="ondes.html#exercices-2"><i class="fa fa-check"></i>Exercices</a></li>
+<li class="chapter" data-level="2.1" data-path="ondes.html"><a href="ondes.html#resume-des-definitons"><i class="fa fa-check"></i><b>2.1</b> Résumé des définitons</a></li>
+<li class="chapter" data-level="2.2" data-path="ondes.html"><a href="ondes.html#superposition-dondes"><i class="fa fa-check"></i><b>2.2</b> Superposition d’ondes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="ondes-sonores.html"><a href="ondes-sonores.html"><i class="fa fa-check"></i><b>3</b> Ondes sonores</a><ul>
+<li class="chapter" data-level="" data-path="ondes-sonores.html"><a href="ondes-sonores.html#exercices-3"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="ondes-electromagnetiques.html"><a href="ondes-electromagnetiques.html"><i class="fa fa-check"></i><b>4</b> Ondes électromagnétiques</a><ul>
+<li class="chapter" data-level="" data-path="ondes-electromagnetiques.html"><a href="ondes-electromagnetiques.html#exercices-4"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="formation-des-images.html"><a href="formation-des-images.html"><i class="fa fa-check"></i><b>5</b> Formation des images</a><ul>
+<li class="chapter" data-level="" data-path="formation-des-images.html"><a href="formation-des-images.html#exercices-5"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="interference-de-la-lumiere.html"><a href="interference-de-la-lumiere.html"><i class="fa fa-check"></i><b>6</b> Interférence de la lumière</a><ul>
+<li class="chapter" data-level="" data-path="interference-de-la-lumiere.html"><a href="interference-de-la-lumiere.html#exercices-6"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="relativite-restreinte.html"><a href="relativite-restreinte.html"><i class="fa fa-check"></i><b>7</b> Relativité restreinte</a><ul>
+<li class="chapter" data-level="" data-path="relativite-restreinte.html"><a href="relativite-restreinte.html#exercices-7"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html"><i class="fa fa-check"></i>Grille de correction pour les laboratoires</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#theorie"><i class="fa fa-check"></i>Théorie</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#resultats"><i class="fa fa-check"></i>Résultats</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-majeurs"><i class="fa fa-check"></i>Éléments majeurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-mineurs"><i class="fa fa-check"></i>Éléments mineurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#correction"><i class="fa fa-check"></i>Correction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#analyse-des-donnees-dans-excel"><i class="fa fa-check"></i>Analyse des données dans Excel</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#graphique"><i class="fa fa-check"></i>Graphique</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-majeurs-1"><i class="fa fa-check"></i>Éléments majeurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-mineurs-1"><i class="fa fa-check"></i>Éléments mineurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#correction-1"><i class="fa fa-check"></i>Correction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#analyse"><i class="fa fa-check"></i>Analyse</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#conclusion"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html"><i class="fa fa-check"></i>Laboratoire 1 – Mouvement harmonique simple</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#retour-sur-le-laboratoire"><i class="fa fa-check"></i>Retour sur le laboratoire</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#evaluer-les-incertitudes-dues-au-contexte"><i class="fa fa-check"></i>Évaluer les incertitudes dues au contexte</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#incertitude-sur-les-cylindres-metalliques"><i class="fa fa-check"></i>Incertitude sur les cylindres métalliques</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#ecart-relatif"><i class="fa fa-check"></i>Écart relatif</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#titre-des-tableaux"><i class="fa fa-check"></i>Titre des tableaux</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#notation"><i class="fa fa-check"></i>Notation</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#formules-dans-excel"><i class="fa fa-check"></i>Formules dans Excel</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#prolonger-les-droites-extremes-dans-les-graphiques"><i class="fa fa-check"></i>Prolonger les droites extrêmes dans les graphiques</a></li>
+<li><a href="laboratoire-1-mouvement-harmonique-simple.html#pas-de-r2-pour-les-droites-extremes">Pas de <span class="math inline">\(R^2\)</span> pour les droites extrêmes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#coherence-et-conclusion"><i class="fa fa-check"></i>Cohérence et conclusion</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html"><i class="fa fa-check"></i>Laboratoire 3 – Lentille convergente</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#consignes"><i class="fa fa-check"></i>Consignes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#introduction"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#resultats-1"><i class="fa fa-check"></i>Résultats</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#conclusion-1"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html"><i class="fa fa-check"></i>Laboratoire 6 – Effet photoélectrique</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#consignes-1"><i class="fa fa-check"></i>Consignes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#introduction-1"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#resultats-2"><i class="fa fa-check"></i>Résultats</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#conclusion-2"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ondes, optique et physique moderne</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ondes" class="section level1">
+<h1><span class="header-section-number">2</span> Ondes</h1>
+<div id="exercices-2" class="section level2 unnumbered">
+<h2>Exercices</h2>
+<p>En classe, nous travaillerons sur les exercices des <a href="./diapos/02-ondes.pdf">diapositives
+suivantes</a>.</p>
+</div>
+<div id="resume-des-definitons" class="section level2">
+<h2><span class="header-section-number">2.1</span> Résumé des définitons</h2>
+<dl>
+<dt>Onde</dt>
+<dd>Perturbation d’un milieu qui se propage dans ce milieu.
+</dd>
+<dt>Équation d’onde</dt>
+<dd>Équation différentielle d’ordre deux qui décrit une onde se propageant dans
+un milieu. La variable dépendante dans cette équation est la variable qui
+décrit l’évolution temporelle et spatiale de la perturbation.
+<span class="math display" id="eq:equationonde">\[\begin{equation}
+  \frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2}
+  \tag{2.1}
+\end{equation}\]</span>
+où <span class="math inline">\(y\)</span> est la variable qui décrit la perturbation, <span class="math inline">\(x\)</span> est la position dans
+l’espace, <span class="math inline">\(t\)</span> est le temps et <span class="math inline">\(v\)</span> est la vitesse de propagation de l’onde.
+</dd>
+<dt>Fonction d’onde</dt>
+<dd>Solution de l’équation d’onde. Toute fonction d’onde peut être représentée
+par une fonction de la forme
+<span class="math display">\[y(x, t) = f(x \pm vt).\]</span>
+</dd>
+<dt>Onde sinusoïdale progressive</dt>
+<dd>Solution de l’équation d’onde qui a la forme d’une fonction sinusoïdale :
+<span class="math display" id="eq:ondesinusoidale">\[\begin{equation}
+  y(x, t) = y_m \sin(kx \pm \omega t + \phi).
+  \tag{2.2}
+\end{equation}\]</span>
+</dd>
+<dt>Amplitude</dt>
+<dd>Distance maximale entre la valeur d’équilibre et la valeur maximale
+dans une onde. Elle est représentée par <span class="math inline">\(y_m\)</span> dans l’équation
+<a href="ondes.html#eq:ondesinusoidale">(2.2)</a>.
+</dd>
+<dt>Phase</dt>
+<dd>Argument de la fonction sinusoïdale qui décrit une onde sinusoïdale
+progressive, i.e. : <span class="math inline">\(kx \pm \omega t + \phi\)</span> dans l’équation
+<a href="ondes.html#eq:ondesinusoidale">(2.2)</a>.
+</dd>
+<dt>Constante de phase</dt>
+<dd>Constante dont la valeur est fixée par les conditions initiales de l’onde.
+Elle est représentée par <span class="math inline">\(\phi\)</span> dans l’équation <a href="ondes.html#eq:ondesinusoidale">(2.2)</a>.
+</dd>
+<dt>Fréquence angulaire</dt>
+<dd>Nombre de radians par lequel la phase d’une onde sinusoïdale progressive
+augmente chaque unité de temps. Elle est représentée par <span class="math inline">\(\omega\)</span> dans
+l’équation <a href="ondes.html#eq:ondesinusoidale">(2.2)</a>.
+</dd>
+<dt>Fréquence</dt>
+<dd>Nombre d’oscillations complètes par unité de temps. La fréquence <span class="math inline">\(f\)</span> est
+reliée à la fréquence angulaire par
+<span class="math display">\[f = \frac{\omega}{2\pi}\]</span>
+puisqu’une oscillation correspond à une variation de phase de <span class="math inline">\(2\pi\)</span> radians.
+</dd>
+<dt>Période</dt>
+<dd>Durée d’une oscillation complète. La période, <span class="math inline">\(T\)</span>, est l’inverse de la
+fréquence donc
+<span class="math display">\[T = \frac{1}{f} = \frac{2\pi}{\omega}.\]</span>
+</dd>
+<dt>Nombre d’onde</dt>
+<dd>Nombre de radians par lequel la phase d’une onde sinusoïdale progressive
+change à chaque unité de temps. Elle est représentée par <span class="math inline">\(k\)</span> dans
+l’équation <a href="ondes.html#eq:ondesinusoidale">(2.2)</a>.
+</dd>
+<dt>Longueur d’onde</dt>
+<dd>Distance requise pour que l’onde fasse une oscillation complète. La longueur
+d’onde, <span class="math inline">\(\lambda\)</span>, est reliée au nombre d’onde par la relation
+<span class="math display">\[\lambda = \frac{2\pi}{k}.\]</span>
+</dd>
+<dt>Vitesse de propagation</dt>
+<dd>Vitesse à laquelle l’onde avance dans le milieu dans lequel elle se propage.
+Cette vitesse est reliée au nombre d’onde et à la fréquence angulaire :
+<span class="math display">\[v = \frac{\omega}{k} = \frac{\lambda}{T}\]</span>
+</dd>
+<dt>Réflexion dure</dt>
+<dd>Type de réflexion qu’une onde subit lorsqu’elle arrive d’un milieu où elle a
+une grande vitesse de propagation à l’interface avec un milieu où sa vitesse de
+propagation est plus petite. L’onde subit un changement de phase. Dans le cas
+d’une onde sur une corde, l’onde réfléchie est donc renversée par rapport à
+l’onde incidente.
+</dd>
+<dt>Réflexion molle</dt>
+<dd>Type de réflexion qu’une onde subit lorsqu’elle arrive d’un milieu où elle a
+une faible vitesse de propagation à l’interface avec un milieu où sa vitesse de
+propagation est plus grande. L’onde ne subit pas de changement de phase. Dans
+le cas d’une onde sur une corde, l’onde réfléchie est droite par rapport à
+l’onde incidente.
+</dd>
+<dt>Superposition</dt>
+<dd>Deux ondes de même nature qui se propagent dans le même milieu au même moment
+vont se superposer, c’est-à-dire que la perturbation totale du milieu sera la
+somme des perturbations individuelles :
+<span class="math display">\[y(x, t) = y_1(x, t) + y_2(x, t).\]</span>
+</dd>
+<dt>Interférence</dt>
+<dd>Deux ondes de même nature qui se propagent dans le même milieu au même moment
+vont interférer, c’est-à-dire que l’onde résultante pourra avoir une amplitude
+plus grande (interférence constructive) ou plus petite (interférence
+destructive) que les ondes individuelles.
+</dd>
+<dt>Onde stationnaire</dt>
+<dd>La superposition de deux ondes progressives ayant la même fréquence et la
+même vitesse de propagation, mais qui se propagent dans des directions opposées
+peut résulter en une onde dont la vitesse de propagation est nulle, une onde
+stationnaire. Une telle onde possède des <strong>noœuds</strong>, qui ont une amplitude
+nulle, et des <strong>ventres</strong> qui ont une amplitude maximale. Une onde stationnaire
+résultant de la somme de deux ondes sinusoïdale de même amplitude est décrite par
+<span class="math display">\[y(x, t) = 2y_m \sin(kx)\cos(\omega t)\]</span>
+</dd>
+</dl>
+</div>
+<div id="superposition-dondes" class="section level2">
+<h2><span class="header-section-number">2.2</span> Superposition d’ondes</h2>
+<div>
+<div class="figures" style="float: left">
+<div id="figure1a">
+
+</div>
+<div id="figure1">
+
+</div>
+<div id="figure2a">
+
+</div>
+<div id="figure2">
+
+</div>
+</div>
+<div class="fctEquation" style="color: rgb(42, 119, 178)">
+<p><span class="math inline">\(y_1(x, t) =\)</span> <span class="ym1Value"></span>
+<span class="math inline">\(\sin(\)</span><span class="k1Value"></span> <span class="math inline">\(x +\)</span> <span class="w1Value"></span> <span class="math inline">\(t +\)</span>
+<span class="phi1Value"></span><span class="math inline">\()\)</span></p>
+</div>
+<div class="controls">
+<p>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(y_{m1}\)</span></span>
+<input id="ym1" type="range" min="0" max="5" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(k_1\)</span></span>
+<input id="k1" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(\omega_1\)</span></span>
+<input id="w1" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(\phi_1\)</span></span>
+<input id="phi1" type="range" min="-10" max="10" step="0.05" style="width: 120px;">
+</p>
+</div>
+<div class="fctEquation" style="color: rgb(255, 127, 14)">
+<p><span class="math inline">\(y_2(x, t) =\)</span> <span class="ym2Value"></span>
+<span class="math inline">\(\sin(\)</span><span class="k2Value"></span> <span class="math inline">\(x +\)</span> <span class="w2Value"></span> <span class="math inline">\(t +\)</span>
+<span class="phi2Value"></span><span class="math inline">\()\)</span></p>
+</div>
+<div class="controls">
+<p>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(y_{m2}\)</span></span>
+<input id="ym2" type="range" min="0" max="5" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(k_2\)</span></span>
+<input id="k2" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(\omega_2\)</span></span>
+<input id="w2" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px"><span class="math inline">\(\phi_2\)</span></span>
+<input id="phi2" type="range" min="-10" max="10" step="0.05" style="width: 120px;">
+</p>
+</div>
+</div>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="js/plot.js"></script>
+<script>
+var t = d3.range(0, 20, 0.05);
+var x = d3.range(0, 20, 0.05);
+var y1x = x.map(function(d) { return Math.sin(d); });
+var y1t = t.map(function(d) { return Math.sin(d); });
+var y2x = x.map(function(d) { return Math.sin(d); });
+var y2t = t.map(function(d) { return Math.sin(d); });
+var yx = x.map(function(d, i) { return y1x[i] + y2x[i]; });
+var yt = t.map(function(d, i) { return y1t[i] + y2t[i]; });
+var params = {ym1: 1, k1: 1, w1: 1, phi1: 0,
+              ym2: 1, k2: 1, w2: 1, phi2: 0};
+var plotxtot = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("x")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-10, 10])
+    .colori(2)
+    .toggleZoom();
+var plotx = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("x")
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-6, 6])
+    .toggleZoom();
+var plotttot = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("t")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-10, 10])
+    .colori(2)
+    .toggleZoom();
+var plott = lineChart()
+    .xAxisLabel("t")
+    .yAxisLabel("y")
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-6, 6])
+    .toggleZoom();
+d3.select("#figure1")
+    .data([d3.zip(x, y1x)])
+    .call(plotx);
+d3.select("#figure1")
+    .data([d3.zip(x, y2x)])
+    .call(plotx);
+d3.select("#figure1a")
+    .data([d3.zip(x, yx)])
+    .call(plotxtot);
+d3.select("#figure2")
+    .data([d3.zip(t, y1t)])
+    .call(plott);
+d3.select("#figure2")
+    .data([d3.zip(t, y2t)])
+    .call(plott);
+d3.select("#figure2a")
+    .data([d3.zip(x, yt)])
+    .call(plotttot);
+
+function redraw() {
+  y1t = t.map(function(d) {
+    return params.ym1 * Math.sin(params.w1 * d + params.phi1); });
+  y1x = t.map(function(d) {
+    return params.ym1 * Math.sin(params.k1 * d + params.phi1); });
+  plotx.update(d3.zip(t, y1x), '#line0');
+  plott.update(d3.zip(t, y1t), '#line0');
+
+  y2t = t.map(function(d) {
+    return params.ym2 * Math.sin(params.w2 * d + params.phi2); });
+  y2x = t.map(function(d) {
+    return params.ym2 * Math.sin(params.k2 * d + params.phi2); });
+  plotx.update(d3.zip(t, y2x), '#line1');
+  plott.update(d3.zip(t, y2t), '#line1');
+
+  yx = x.map(function(d, i) { return y1x[i] + y2x[i]; });
+  yt = t.map(function(d, i) { return y1t[i] + y2t[i]; });
+  plotxtot.update(d3.zip(t, yx));
+  plotttot.update(d3.zip(t, yt));
+}
+
+function set_control(varName) {
+  d3.selectAll("." + varName + "Value")
+    .each(function(d) { d3.select(this).html(params[varName]); });
+  document.getElementById(varName).value = params[varName];
+  d3.select("#" + varName)
+    .on("input", function() {
+        params[varName] = +this.value;
+        redraw();
+        d3.selectAll("." + varName + "Value")
+          .each(function(d) { d3.select(this).html(params[varName]); });
+    });
+}
+
+set_control("ym1")
+set_control("ym2")
+set_control("k1")
+set_control("k2")
+set_control("w1")
+set_control("w2")
+set_control("phi1")
+set_control("phi2")
+</script>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="oscillations.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ondes-sonores.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/loicseguin/nyc/edit/master/02-ondes.Rmd",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

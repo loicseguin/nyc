@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html  lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ondes, optique et physique moderne</title>
+  <meta name="description" content="Notes de cours pour 203-NYC-05, hiver 2018">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Ondes, optique et physique moderne" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Notes de cours pour 203-NYC-05, hiver 2018" />
+  <meta name="github-repo" content="loicseguin/nyc" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ondes, optique et physique moderne" />
+  
+  <meta name="twitter:description" content="Notes de cours pour 203-NYC-05, hiver 2018" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="laboratoire-1-mouvement-harmonique-simple.html">
+<link rel="next" href="laboratoire-6-effet-photoelectrique.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">203-NYC-05</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Résumé du plan de cours</a></li>
+<li class="chapter" data-level="" data-path="calendrier.html"><a href="calendrier.html"><i class="fa fa-check"></i>Calendrier</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html"><i class="fa fa-check"></i>Rappels de trigonométrie</a><ul>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#rapports-trigonometriques"><i class="fa fa-check"></i>Rapports trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#cercle-unitaire-et-identites-trigonometriques"><i class="fa fa-check"></i>Cercle unitaire et identités trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#fonction-trigonometriques"><i class="fa fa-check"></i>Fonction trigonométriques</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#fonctions-trigonometriques-inverses"><i class="fa fa-check"></i>Fonctions trigonométriques inverses</a></li>
+<li class="chapter" data-level="" data-path="rappels-de-trigonometrie.html"><a href="rappels-de-trigonometrie.html#exercices"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="oscillations.html"><a href="oscillations.html"><i class="fa fa-check"></i><b>1</b> Oscillations</a><ul>
+<li class="chapter" data-level="" data-path="oscillations.html"><a href="oscillations.html#exercices-1"><i class="fa fa-check"></i>Exercices</a></li>
+<li class="chapter" data-level="1.1" data-path="oscillations.html"><a href="oscillations.html#resume-des-definitions"><i class="fa fa-check"></i><b>1.1</b> Résumé des définitions</a></li>
+<li class="chapter" data-level="1.2" data-path="oscillations.html"><a href="oscillations.html#evolution-temporelle-dun-mhs"><i class="fa fa-check"></i><b>1.2</b> Évolution temporelle d’un MHS</a></li>
+<li class="chapter" data-level="1.3" data-path="oscillations.html"><a href="oscillations.html#systeme-bloc-ressort"><i class="fa fa-check"></i><b>1.3</b> Système bloc-ressort</a></li>
+<li class="chapter" data-level="1.4" data-path="oscillations.html"><a href="oscillations.html#energie-dans-un-systeme-bloc-ressort"><i class="fa fa-check"></i><b>1.4</b> Énergie dans un système bloc ressort</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="ondes.html"><a href="ondes.html"><i class="fa fa-check"></i><b>2</b> Ondes</a><ul>
+<li class="chapter" data-level="" data-path="ondes.html"><a href="ondes.html#exercices-2"><i class="fa fa-check"></i>Exercices</a></li>
+<li class="chapter" data-level="2.1" data-path="ondes.html"><a href="ondes.html#resume-des-definitons"><i class="fa fa-check"></i><b>2.1</b> Résumé des définitons</a></li>
+<li class="chapter" data-level="2.2" data-path="ondes.html"><a href="ondes.html#superposition-dondes"><i class="fa fa-check"></i><b>2.2</b> Superposition d’ondes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="ondes-sonores.html"><a href="ondes-sonores.html"><i class="fa fa-check"></i><b>3</b> Ondes sonores</a><ul>
+<li class="chapter" data-level="" data-path="ondes-sonores.html"><a href="ondes-sonores.html#exercices-3"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="ondes-electromagnetiques.html"><a href="ondes-electromagnetiques.html"><i class="fa fa-check"></i><b>4</b> Ondes électromagnétiques</a><ul>
+<li class="chapter" data-level="" data-path="ondes-electromagnetiques.html"><a href="ondes-electromagnetiques.html#exercices-4"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="formation-des-images.html"><a href="formation-des-images.html"><i class="fa fa-check"></i><b>5</b> Formation des images</a><ul>
+<li class="chapter" data-level="" data-path="formation-des-images.html"><a href="formation-des-images.html#exercices-5"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="interference-de-la-lumiere.html"><a href="interference-de-la-lumiere.html"><i class="fa fa-check"></i><b>6</b> Interférence de la lumière</a><ul>
+<li class="chapter" data-level="" data-path="interference-de-la-lumiere.html"><a href="interference-de-la-lumiere.html#exercices-6"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="relativite-restreinte.html"><a href="relativite-restreinte.html"><i class="fa fa-check"></i><b>7</b> Relativité restreinte</a><ul>
+<li class="chapter" data-level="" data-path="relativite-restreinte.html"><a href="relativite-restreinte.html#exercices-7"><i class="fa fa-check"></i>Exercices</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html"><i class="fa fa-check"></i>Grille de correction pour les laboratoires</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#theorie"><i class="fa fa-check"></i>Théorie</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#resultats"><i class="fa fa-check"></i>Résultats</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-majeurs"><i class="fa fa-check"></i>Éléments majeurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-mineurs"><i class="fa fa-check"></i>Éléments mineurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#correction"><i class="fa fa-check"></i>Correction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#analyse-des-donnees-dans-excel"><i class="fa fa-check"></i>Analyse des données dans Excel</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#graphique"><i class="fa fa-check"></i>Graphique</a><ul>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-majeurs-1"><i class="fa fa-check"></i>Éléments majeurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#elements-mineurs-1"><i class="fa fa-check"></i>Éléments mineurs</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#correction-1"><i class="fa fa-check"></i>Correction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#analyse"><i class="fa fa-check"></i>Analyse</a></li>
+<li class="chapter" data-level="" data-path="grille-de-correction-pour-les-laboratoires.html"><a href="grille-de-correction-pour-les-laboratoires.html#conclusion"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html"><i class="fa fa-check"></i>Laboratoire 1 – Mouvement harmonique simple</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#retour-sur-le-laboratoire"><i class="fa fa-check"></i>Retour sur le laboratoire</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#evaluer-les-incertitudes-dues-au-contexte"><i class="fa fa-check"></i>Évaluer les incertitudes dues au contexte</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#incertitude-sur-les-cylindres-metalliques"><i class="fa fa-check"></i>Incertitude sur les cylindres métalliques</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#ecart-relatif"><i class="fa fa-check"></i>Écart relatif</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#titre-des-tableaux"><i class="fa fa-check"></i>Titre des tableaux</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#notation"><i class="fa fa-check"></i>Notation</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#formules-dans-excel"><i class="fa fa-check"></i>Formules dans Excel</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#prolonger-les-droites-extremes-dans-les-graphiques"><i class="fa fa-check"></i>Prolonger les droites extrêmes dans les graphiques</a></li>
+<li><a href="laboratoire-1-mouvement-harmonique-simple.html#pas-de-r2-pour-les-droites-extremes">Pas de <span class="math inline">\(R^2\)</span> pour les droites extrêmes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-1-mouvement-harmonique-simple.html"><a href="laboratoire-1-mouvement-harmonique-simple.html#coherence-et-conclusion"><i class="fa fa-check"></i>Cohérence et conclusion</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html"><i class="fa fa-check"></i>Laboratoire 3 – Lentille convergente</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#consignes"><i class="fa fa-check"></i>Consignes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#introduction"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#resultats-1"><i class="fa fa-check"></i>Résultats</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-3-lentille-convergente.html"><a href="laboratoire-3-lentille-convergente.html#conclusion-1"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html"><i class="fa fa-check"></i>Laboratoire 6 – Effet photoélectrique</a><ul>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#consignes-1"><i class="fa fa-check"></i>Consignes</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#introduction-1"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#resultats-2"><i class="fa fa-check"></i>Résultats</a></li>
+<li class="chapter" data-level="" data-path="laboratoire-6-effet-photoelectrique.html"><a href="laboratoire-6-effet-photoelectrique.html#conclusion-2"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ondes, optique et physique moderne</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="laboratoire-3-lentille-convergente" class="section level1 unnumbered">
+<h1>Laboratoire 3 – Lentille convergente</h1>
+<div id="consignes" class="section level2 unnumbered">
+<h2>Consignes</h2>
+<p>Chaque équipe doit remettre :
+- un rapport complet papier, broché, qui inclut tous les éléments décrits
+plus bas dans l’ordre;
+- un fichier Excel contenant tous les calculs nécessaires effectués à l’aide
+de formules appropriées. Le fichier Excel doit être remis sur Léa.
+La date limite de remise est le mardi 27 mars 2018 à 17h.</p>
+<p>Je corrigerai le fichier Excel en remplaçant vos données par les miennes. Les
+valeurs finales calculées dans votre fichier devront être correctes.</p>
+<p>Vous n’avez pas le droit d’utiliser de listes à puces ou à numéros. Vous
+devez répondre aux exigences en rédigeant un texte continu. Toutes vos
+phrases doivent compter un maximum de 15 mots. Votre rapport de laboratoire
+doit compter un maximum de 4 pages, incluant les tableaux et le graphique.
+Je ne corrigerai pas les phrases plus longues que 15 mots, ni les pages
+au-delà de la quatrième.</p>
+<p>Votre rapport de laboratoire doit inclure les sections suivantes, dans
+l’ordre.</p>
+</div>
+<div id="introduction" class="section level2 unnumbered">
+<h2>Introduction</h2>
+<p>L’objectif de cette section est de présenter le modèle théorique que vous
+voulez vérifier expérimentalement de même que la méthode d’analyse que vous
+utiliserez.</p>
+<p>Présentez la formule des lentilles minces en prenant soin de bien définir
+chacun des symboles qui y apparait. Présentez également les deux expressions
+permettant de calculer le grandissement.</p>
+<p>Expliquez comment vous linéarisez l’équation des lentilles minces. Quelles
+sont les quantités qui jouent le rôle de variable indépendante et dépendante?
+Quelle est l’allure du graphique attendue? Quelles sont les valeurs attendues
+des paramètres de la droite de régression?</p>
+</div>
+<div id="resultats-1" class="section level2 unnumbered">
+<h2>Résultats</h2>
+<p>Présentez toutes les données mesurées directement dans un unique tableau. À
+la suite de ce tableau, justifiez les incertitudes.</p>
+<p>Présentez un deuxième tableau comprenant les valeurs calculées à partir des
+mesures directes. Ce tableau doit inclure les valeurs des variables
+indépendante et dépendante de votre modèle linéarisé. Il doit aussi inclure
+le grandissement calculé selon deux méthodes différentes et une colonne qui
+indique si les valeurs de grandissement sont égales.</p>
+<p>Présentez un graphique de votre modèle linéarisé incluant les droites
+extrêmes. Ce graphique doit occuper
+un minimum d’une demi-page.</p>
+</div>
+<div id="conclusion-1" class="section level2 unnumbered">
+<h2>Conclusion</h2>
+<p>À partir de vos résultats, expliquez si l’équation des lentilles minces est
+vérifiée. Vos explications doivent inclure une comparaison de la distance
+focale mesurée à partir du graphique à la valeur fournie par le fabricant.</p>
+<p>À partir de vos résultats, expliquez si les relations donnant le
+grandissement sont vérifiées. Vous n’avez pas fait de linéarisation, donc
+vous ne pourrez pas faire une vérification de modèle traditionnelle.
+Convainquez-moi que vos données confirment ou non les relations théoriques.</p>
+<p>Si vos modèles ne sont pas vérifiés, expliquez les sources probables
+du problème.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="laboratoire-1-mouvement-harmonique-simple.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="laboratoire-6-effet-photoelectrique.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/loicseguin/nyc/edit/master/labo3-lentille.Rmd",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

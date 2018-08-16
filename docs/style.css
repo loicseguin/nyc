@@ -1,0 +1,42 @@
+.section h2 {
+    clear: both;
+}
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #666;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    fill: #333;
+    font-size: 12px;
+}
+
+.line {
+    fill: none;
+    stroke: #ff7f0e;
+    stroke-width: 1.5px;
+}
+
+.grid path,
+.grid line {
+    stroke: #efefef;
+    opacity: 0.7;
+}
