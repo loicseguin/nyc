@@ -3,7 +3,7 @@
 ## Exercices {-}
 
 En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/01-oscillations.pdf).
+suivantes](https://docs.google.com/presentation/d/1K3wUYffcH0Q8pshmT-csSTZUmDQt0aj7my9UdrElOso/edit?usp=sharing).
 
 ## Résumé des définitions
 

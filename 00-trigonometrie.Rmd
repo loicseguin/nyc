@@ -195,4 +195,4 @@ knitr::include_graphics(rep('images/arctan.png'))
 ## Exercices {-}
 
 En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/00-rappels-trigonometrie.pdf).
+suivantes](https://docs.google.com/presentation/d/1-ONETgGwcmWK2WuV-sAcEJ3WxIUqoGPdXQlXR1pllTQ/edit?usp=sharing)
