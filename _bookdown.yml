@@ -1,4 +1,5 @@
-book_filename: "nyc-h18"
+book_filename: 'nyc-a18'
+output_dir: 'docs'
 delete_merged_file: true
 language:
   label:
