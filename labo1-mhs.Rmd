@@ -1,0 +1,117 @@
+# Laboratoire 1 – Mouvement harmonique simple {-}
+
+Voici la [présentation utilisée](diapos/labo1-mhs.pdf) en classe pour la 
+démonstration de l'équation du mouvement du système-masse ressort vertical.
+
+Les deux fichiers suivants montrent des exemples de 
+[graphiques](diapos/mauvais-graphiques-solution.pdf) et de 
+[tableaux](diapos/mauvais-tableaux-solution.pdf).
+
+## Retour sur le laboratoire {-}
+
+### Évaluer les incertitudes dues au contexte {-}
+
+Vous devez évaluer les incertitudes dues au contexte expérimental. Si vous
+jugez que l'incertitude liée au contexte est négligeable, vous devez le
+mentionner et justifier brièvement.
+
+**Pourquoi?** Il est important que vous appreniez à reconnaître les facteurs
+qui influencent la qualité des résultats expérimentaux.
+
+### Incertitude sur les cylindres métalliques {-}
+
+L'incertitude sur la masse des cylindres métalliques est 0,10% de la valeur
+indiquée sur le cylindre. Attention, 0,10% n'est pas 10% ni 1% ni 0,10 ni 0,01.
+
+**Pourquoi?** C'est l'incertitude spécifiée par le fabricant et vous devez être
+capable de calculer un pourcentage convenablement.
+
+### Écart relatif {-}
+
+Quand vous calculez un écart relatif, soit vous laisser le résultat en notation
+décimale soit vous l'écrivez avec la notation %, mais vous devez porter
+attention à la valeur que vous obtenez. Par exemple, si vous voulez calculer
+l'écart relatif entre 12,1 et 11,9 en utilisant 11,9 comme valeur de référence,
+le calcul approprié est
+$$\frac{\left| 12,1 - 11,9 \right|}{11.9} = 0,0168.$$
+Vous pouvez laisser ce résultat comme 0,017 ou bien l'écrire en pourcentage
+comme 1,7%.
+
+**Pourquoi?** Si vous ne portez pas attention à la notation, vous vous
+retrouvez souvent avec une incertitude relative 100 fois trop petite parce que
+vous interprétez le résultat décimal comme un pourcentage. Dans l'exemple
+ci-dessus, il serait incorrect d'écrire 0,017%.
+
+### Titre des tableaux {-}
+
+Le titre des tableaux doit être descriptif, il doit décrire le contenu du
+tableau en évitant le plus possible de répéter le titre des colonnes. Un bon
+titre de tableau commence souvent par «Propriétés de» ou «Caractéristiques de»
+suivi d'une brève description du montage sur lequel les mesures ont été
+effectuées.
+
+**Pourquoi?** Le lecteur doit être facilement en mesure de déterminer ce que le
+tableau contient, à quoi il fait référence et comment interpréter les valeurs
+qui s'y trouvent.
+
+### Notation {-}
+
+Vous devez écrire les indices, les exposants et les symboles correctement. Dans
+Excel, vous pouvez mettre des indices et des exposants partout, il suffit de
+trouver la fenêtre de mise en forme de police (souvent accessible via un clic
+droit sur la souris).
+
+**Pourquoi?** La notation permet de communiquer efficacement, il est important
+de la respecter au même titre qu'il est important de respecter les règles de
+grammaire.
+
+### Formules dans Excel {-}
+
+Toute quantité qui peut-être calculée doit l'être au moyen d'une formule dans
+Excel. Vous devez utiliser adéquatement les fonctions Excel comme `ABS`,
+`RACINE`, `PENTE`, `ORDONNEE.ORIGINE`, `PI`, etc.
+
+**Pourquoi?** Excel est un outil de travail qui permet de faire beaucoup de
+calculs plus rapidement qu'avec une calculatrice. Pour devenir efficace avec
+Excel, il faut l'utiliser fréquemment.
+
+### Prolonger les droites extrêmes dans les graphiques {-}
+
+Vous devez prolonger les toutes les droites dans vos graphiques de telle sorte
+qu'elles atteignent l'axe des ordonnées.
+
+**Pourquoi?** On veut fournir le maximum d'information visuelle. En
+particulier, voir l'endroit où les droites extrêmes touchent à l'axe des
+ordonnées permet de rapidement estimer l'incertitude sur l'ordonnée à
+l'origine.
+
+### Pas de $R^2$ pour les droites extrêmes {-}
+
+N'incluez pas le coefficient de détermination pour les droites extrêmes.
+
+**Pourquoi?** Ce coefficient permet de quantifier la qualité de l'ajustement
+entre le modèle (souvent un modèle linéaire) et les données. Dans le cas des
+droites extrêmes, vous faites passer une droite par deux points ce qu'on peut
+toujours faire à la perfection. Par conséquent, le coefficient de détermination
+des droites extrêmes sera nécessairement 1. Ce coefficient ne communique donc
+aucune information utile.
+
+### Cohérence et conclusion {-}
+
+Tenez vous le pour dit : vous ne ferez pas de découvertes révolutionnaires dans
+ce cours. Ce que vous ferez sera de valider expérimentalement que la théorie
+apprise en classe fonctionne réellement. Par conséquent, vos modèles devraient
+plus souvent qu'autrement être vérifiés. Si ce n'est pas le cas, votre premier
+réflexe doit toujours être de réviser vos calculs. Dans la majorité des cas,
+vos modèles ne sont pas vérifiés parce que vous faites des erreurs de calcul.
+Si, par malheur, tout vos calculs sont bons et qu'il s'avère que le problème en
+est un de manipulation, vous devez réfléchir aux sources probables d'erreurs.
+Ne blâmez pas le matériel, il fonctionne bien. Identifiez des éléments qui vous
+semblaient les plus difficiles expérimentalement et qui, selon vous, expliquent
+pourquoi vos données sont incorrectes.
+
+La conclusion doit faire un retour sur *tous* les buts. Pour certains de ces
+buts, une vérification de modèle peut s'imposer. Votre conclusion doit être
+présentée comme un texte continu qui forme un tout (qui peut inclure des
+paragraphes), pas une liste numérotée ou une liste à puce.
+

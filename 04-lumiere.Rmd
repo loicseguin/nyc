@@ -1,0 +1,7 @@
+# Ondes électromagnétiques
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/04-lumiere.pdf).
+

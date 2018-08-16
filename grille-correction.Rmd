@@ -1,0 +1,89 @@
+# Grille de correction pour les laboratoires {-}
+
+Chaque section est notée sur 2. La pondération relative de chaque
+section peut-être différente d’un laboratoire à l’autre.
+
+## Théorie {-}
+
+Explication des concepts physiques, démonstrations préalables.
+
+-   Explications complètes, justifications claires, notation et schémas
+    pertinents : 2
+-   Lacunes importantes dans les justifications, plusieurs erreurs de
+    notation, schémas incorrects : 1
+-   Absence de justification, notation incorrecte, absence de schéma : 0
+
+## Résultats {-}
+
+Qualité des mesures, évaluation des incertitudes, observations
+qualitatives
+
+### Éléments majeurs {-}
+
+-   Données correctes et clairement présentées
+-   Incertitudes bien évaluées et justifiées
+-   Titre des tableaux appropriés
+-   Unités de mesure clairement indiquées
+
+### Éléments mineurs {-}
+
+-   Symboles adéquats pour les variables
+-   Légendes claires
+-   Présentation visuelle soignée
+
+### Correction {-}
+
+-   Tous les éléments majeurs et mineurs sont satisfaits : 2
+-   Un élément majeur insatisfait, quelques problèmes pour les éléments
+    mineurs : 1
+-   Plus d’un élément majeur insatisfait, plusieurs éléments mineurs
+    insatisfaits : 0
+
+## Analyse des données dans Excel {-}
+
+Tous les calculs doivent être faits dans Excel.
+
+-   Tous les calculs sont correctement faits, les fonctions Excel
+    appropriées sont utilisées : 2
+-   La plupart des calculs sont correctements faits, lacunes mineures
+    dans l’utilisation des fonctions Excel : 1
+-   Plusieurs erreurs de calcul, lacunes importantes dans l’utilisation
+    des fonctions Excel : 0
+
+## Graphique {-}
+
+### Éléments majeurs {-}
+
+-   Titre du graphique
+-   Droites extrêmes
+-   Données et incertitudes
+-   Identification des axes
+
+### Éléments mineurs {-}
+
+-   Graduations
+-   Quadrillage
+-   Présentation visuelle soignée
+-   Utilisation optimale de l’espace
+
+### Correction {-}
+
+-   Tous les éléments majeurs et mineurs sont satisfaits : 2
+-   Un élément majeur insatisfait, plusieurs éléments mineurs
+    insatisfaits : 1
+-   La majorités des éléments majeurs et mineurs insatisfaits : 0
+
+## Analyse {-}
+
+-   Réponses adéquates et complètes aux questions d’analyse : 2
+-   Réponses floues ou manquant certaines précisions : 1
+-   Réponses incohérentes, incompréhensibles ou absentes : 0
+
+## Conclusion {-}
+
+-   Retour sur les buts du laboratoire complet, vérification de modèle
+    appropriée, suggestion d’amélioration ou d’approfondissement
+    pertinente : 2
+-   Lacunes mineures : 1
+-   Plus d’un élément manquant : 0
+

@@ -1,0 +1,124 @@
+---
+title: "Ondes, optique et physique moderne"
+subtitle: "203-NYC-05, Hiver 2017"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+lang: fr
+documentclass: book
+bibliography: nyc.bib
+#biblio-style: apalike
+link-citation: yes
+github-repo: loicseguin/nyc
+description: "Notes de cours pour 203-NYC-05, hiver 2018"
+---
+
+```{r setup, include=FALSE}
+# set global chunk options
+options(knitr.graphics.auto_pdf = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Résumé du plan de cours {-}
+
+[Diapos utilisées en classe](./diapos/00-presentation.pdf) pour la présentation 
+du plan de cours.
+
+**Professeur**  
+Loïc Séguin-Charbonneau  
+Bureau D-1626  
+Le meilleur moyen pour me joindre est par **mio**.
+
+**Disponibilités**  
+
+Période               Local
+-------------------   --------------
+Lundi 13h à 14h       Bureau, D1626
+Mardi 13h à 14h       Bureau, D1626
+Mardi 14h à 15h       CEP, D1621
+Vendredi 12h à 13h    CEP, D1621
+
+Notez bien que je ne serai pas au collège les mercredi et les jeudi.
+En plus des heures de disponibilité officielles, je suis souvent à mon bureau.
+Ma politique est simple : si je suis au bureau et que ma porte est ouverte,
+vous êtes les bienvenus.
+
+**Coordonnateur du département**  
+Stéphane Proulx  
+Bureau D-1620  
+Poste téléphonique 3099
+
+**Contenu du cours**  
+Les ondes.
+
+**Évaluations**  
+
+Date     Activité                                 Pondération
+-------  ----------                              -------------
+29 jan   Labo 1 -- Mouvement harmonique simple     †
+19 fév   Labo 2 -- Ondes stationnaires             5%
+26 fév   Examen 1 -- Chapitres 1, 2, 3             25%
+19 mar   Labo 3 -- Lentilles convergentes          5%
+26 mar   Labo 4 -- Œil                             †
+2 avr    Examen 2 -- Chapitres 4, 5, 6             20%
+23 avr   Labo 5 -- Interférence et diffraction     †
+30 avr   Labo 6 -- Effet photoélectrique           5%
+EC       Examen 3 -- Récapitulatif                 30%
+EHR      Examen de laboratoire                     10%
+
+†Aucune note directement associée à ce laboratoire, mais peut être évalué à
+l'examen de laboratoire.
+
+La note de passage du cours est de 60%.
+
+**Présence aux cours, laboratoires et examens**  
+Venez au cours, ce sera amusant! Si vous ne venez pas, c'est votre choix.
+Gardez en tête que si vous n'êtes pas en classe, je risque de ne pas vouloir
+vous répondre à mon bureau.
+
+Une absence non justifiée à un laboratoire ou un examen entraîne la note de 0
+pour cette évaluation.
+
+**Remise des travaux**  
+Lorsque vous devrez me remettre un travail, une date et une heure seront
+clairement indiquées. Règle générale, je vous donne quelques jours pour
+compléter les rapports de laboratoire. Si vous remettez un travail en retard,
+une pénalité de 10% par jour de retard s'appliquera jusqu'à concurrence de
+trois jours, incluant les fins de semaine et les jours fériés.
+
+
+# Calendrier {-}
+
+ Semaine   Date      Lundi (2h)                       Mardi (1h)        Vendredi (2h)
+---------  -------  ------------                     ------------      ---------------
+   1       22 jan     [PdC](./index.html), [C0][C0]   [C1][C1]          [C1][C1]
+   2       29 jan     [L1][L1]                        [C1][C1]          [C2][C2]
+   3       5 fév      [C2][C2]                        [C2][C2]          [C2][C2]
+   4       12 fév     [C2][C2]                        [C3][C3]          [C3][C3]
+   5       19 fév     [L2][L2]                        [C3][C3]          [C3][C3]
+   6       26 fév     [C4][C4]                        R                 Examen 1
+   7       5 mar      [C4][C4]                        C5                [C6][C6]
+           12 mar                                     Relâche
+   8       19 mar     [L3][L3]                        [C6][C6]          [C6][C6]
+   9       26 mar     L4                              [C6][C6]          Congé
+   10      2 avr      Congé                           [C7][C7], R(ven)  Examen 2
+   11      9 avr      [C7][C7]                        [C7][C7]          C8
+   12      16 avr     C8                              [C9][C9]          [C9][C9]
+   13      23 avr     L5                              [C9][C9]          C10
+   14      30 avr     [L6][L6]                        C13               C13
+   15      7 mai      C13                             C13               R
+           14 mai                                     Examen 3
+           21 mai                                     Test labo (lun)
+
+[C0]: ./rappels-de-trigonometrie.html
+[C1]: ./oscillations.html
+[C2]: ./ondes.html
+[C3]: ./ondes-sonores.html
+[C4]: ./ondes-electromagnetiques.html
+[C6]: ./formation-des-images.html
+[C7]: ./interference-de-la-lumiere.html
+[C9]: ./relativite-restreinte.html
+[L1]: ./laboratoire-1-mouvement-harmonique-simple.html
+[L3]: ./laboratoire-3-lentille-convergente.html
+[L6]: ./laboratoire-6-effet-photoelectrique.html
+[L2]: ./grille-de-correction-pour-les-laboratoires.html
+

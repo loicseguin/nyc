@@ -1,0 +1,33 @@
+book_filename: "nyc-h18"
+delete_merged_file: true
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Table '
+    eq:  'Équation '
+    thm: 'Théorème '
+    lem: 'Lemme '
+    def: 'Définition '
+    cor: 'Corollaire '
+    prp: 'Proposition '
+    exm: 'Exemple '
+    exr: 'Exercice '
+    proof: 'Preuve. '
+    remark: 'Remarque. '
+    solution: 'Solution. '
+  ui:
+    edit: Edit
+    chapter_name: ''
+rmd_files: ["index.Rmd",
+            "00-trigonometrie.Rmd",
+            "01-oscillations.Rmd",
+            "02-ondes.Rmd",
+            "03-son.Rmd",
+            "04-lumiere.Rmd",
+            "06-formation-images.Rmd",
+            "07-interference.Rmd",
+            "09-relativite-restreinte.Rmd",
+            "grille-correction.Rmd",
+            "labo1-mhs.Rmd",
+            "labo3-lentille.Rmd",
+            "labo6-effet-photoelectrique.Rmd"]

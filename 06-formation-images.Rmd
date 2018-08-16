@@ -1,0 +1,8 @@
+# Formation des images
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/06-formation-images.pdf).
+
+

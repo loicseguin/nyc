@@ -1,0 +1,189 @@
+# Oscillations
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/01-oscillations.pdf).
+
+## Résumé des définitions
+
+Mouvement harmonique simple (MHS)
+: Mouvement de va et vient autour d'une position d'équilibre causé par une 
+force dont la grandeur est proportionnelle à la distance par rapport au point 
+d'équilibre et la direction est toujours vers le point d'équilibre. La position 
+en fonction du temps est décrite par une fonction sinusoïdale, par exemple :
+\begin{equation}
+  x = x_m \cos(\omega t + \phi).
+  (\#eq:mhs)
+\end{equation}
+
+Amplitude
+: Distance maximale entre la position d'équilibre et l'objet en mouvement 
+harmonique simple. Elle est représentée par $x_m$ dans l'équation 
+\@ref(eq:mhs).
+
+Phase
+: Argument de la fonction sinusoïdale qui décrit un mouvement harmonique 
+simple, i.e. : $\omega t + \phi$ dans l'équation \@ref(eq:mhs).
+
+Constante de phase
+: Constante dont la valeur est fixée par les conditions initiales du mouvement 
+harmonique simple. Elle est représentée par $\phi$ dans l'équation 
+\@ref(eq:mhs).
+
+Fréquence angulaire
+: Nombre de radians par lequel la phase d'un mouvement harmonique simple 
+augmente chaque unité de temps. Elle est représentée par $\omega$ dans 
+l'équation \@ref(eq:mhs).
+
+Fréquence
+: Nombre d'aller-retour qu'un objet en mouvement harmonique simple effectue par 
+unité de temps. La fréquence $f$ est reliée à la fréquence angulaire par
+$$f = \frac{\omega}{2\pi}$$
+puisque un aller-retour correspond à une variation de phase de $2\pi$ radians.
+
+Période
+: Durée d'un aller-retour dans un mouvement harmonique simple. La période, $T$, 
+est l'inverse de la fréquence donc
+$$T = \frac{1}{f} = \frac{2\pi}{\omega}.$$
+
+
+## Évolution temporelle d'un MHS
+
+<div>
+<div class="figures" style="float: left">
+  <div id="figure1"></div>
+  <div id="figure2"></div>
+  <div id="figure3"></div>
+</div>
+
+<div class="fctEquation" style="color: rgb(42, 119, 178)">
+$x(t) =$ <span class="xmValue"></span> $\cos($<span class="wValue"></span> $t +$
+<span class="phiValue"></span>$)$
+</div>
+<div class="fctEquation" style="color: rgb(255, 127, 14)">
+$v_x(t) = -$ <span class="vxmValue"></span> $\sin($<span class="wValue"></span> 
+$t +$ <span class="phiValue"></span>$)$
+</div>
+<div class="fctEquation" style="color: rgb(44, 160, 44)">
+$a_x(t) = -$ <span class="axmValue"></span> $\cos($<span class="wValue"></span> 
+$t +$ <span class="phiValue"></span>$)$
+</div>
+
+<div class="controls">
+<p>
+<span style="display: inline-block; width: 30px">$x_m$</span>
+<input id="xm" type="range" min="0" max="5" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\omega$</span>
+<input id="w" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\phi$</span>
+<input id="phi" type="range" min="-10" max="10" step="0.1" style="width: 120px;">
+</p>
+</div>
+</div>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="js/plot.js"></script>
+<script>
+var t = d3.range(0, 20, 0.05);
+var x = t.map(function(d) { return Math.cos(d); });
+var vx = t.map(function(d) { return -Math.sin(d); });
+var ax = t.map(function(d) { return -Math.cos(d); });
+var params = {xm: 1, w: 1, phi: 0, vxm: 1, axm: 1};
+var plotx = lineChart()
+    .yAxisLabel("x")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 500, height:150})
+    .xdomain([0, 20])
+    .ydomain([-5, 5])
+    .toggleZoom();
+var plotv = lineChart()
+    .yAxisLabel("vₓ")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 500, height:150})
+    .xdomain([0, 20])
+    .ydomain([-8, 8])
+    .colori(1)
+    .toggleZoom();
+var plota = lineChart()
+    .xAxisLabel("t")
+    .yAxisLabel("aₓ")
+    .margins({top: 10, right: 20, bottom: 40, left: 60})
+    .dimensions({width: 500, height:185})
+    .xdomain([0, 20])
+    .ydomain([-20, 20])
+    .colori(2)
+    .toggleZoom();
+d3.select("#figure1")
+    .data([d3.zip(t, x)])
+    .call(plotx);
+d3.select("#figure2")
+    .data([d3.zip(t, vx)])
+    .call(plotv);
+d3.select("#figure3")
+    .data([d3.zip(t, ax)])
+    .call(plota);
+
+function redraw() {
+  x = t.map(function(d) {
+    return params.xm * Math.cos(params.w * d + params.phi); });
+  params.vxm = params.xm * params.w;
+  params.axm = params.xm * Math.pow(params.w, 2);
+  vx = t.map(function(d) {
+    return -params.vxm * Math.sin(params.w * d + params.phi); });
+  ax = t.map(function(d) {
+    return -params.axm * Math.cos(params.w * d + params.phi); });
+  plotx.update(d3.zip(t, x));
+  plotv.update(d3.zip(t, vx));
+  plota.update(d3.zip(t, ax));
+}
+
+function set_control(varName) {
+  d3.selectAll("." + varName + "Value")
+    .each(function(d) { d3.select(this).html(params[varName]); });
+  document.getElementById(varName).value = params[varName];
+  d3.select("#" + varName)
+    .on("input", function() {
+        params[varName] = +this.value;
+        redraw();
+        d3.selectAll("." + varName + "Value")
+          .each(function(d) { d3.select(this).html(params[varName]); });
+        d3.select(".vxmValue")
+          .html(+params.vxm.toPrecision(4));
+        d3.select(".axmValue")
+          .html(+params.axm.toPrecision(4));
+    });
+}
+
+set_control("xm")
+set_control("w")
+set_control("phi")
+d3.select(".vxmValue")
+  .html(+params.vxm.toPrecision(4));
+d3.select(".axmValue")
+  .html(+params.axm.toPrecision(4));
+</script>
+
+
+## Système bloc-ressort
+
+Dans le cas d'un système composé d'un bloc de masse $m$ et d'un ressort dont la 
+constante de rappel est $k$, la fréquence angulaire des oscillations du bloc 
+est donnée par
+$$\omega = \sqrt{\frac{k}{m}}.$$
+
+
+## Énergie dans un système bloc ressort
+
+Le graphique suivant montre comment l'énergie potentielle et l'énergie 
+cinétique varient selon la position du bloc.
+
+![Énergie en fonction de la position](images/energie-pos.png)
+
+La variation d'énergie potentielle et d'énergie cinétique est deux fois plus 
+rapide que la variation de position. C'est ce qui est illustré dans les 
+graphiques suivants.
+
+![Position et énergie en fonction du temps](images/energie-temps.png)
+

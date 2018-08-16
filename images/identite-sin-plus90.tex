@@ -1,0 +1,35 @@
+\documentclass[convert={size=480x320}]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{calc, decorations.markings}
+\usepackage{siunitx}
+\sisetup{locale=FR, per-mode=symbol}
+
+\begin{document}
+\definecolor{green}{RGB}{27,158,119}
+\definecolor{orange}{RGB}{217,95,2}
+\definecolor{purple}{RGB}{117,112,179}
+%
+\begin{tikzpicture}[>=stealth]
+  \clip (-5.5, -0.6) rectangle (3.7, 2.7);
+  \def\radius{2}
+  \def\angle{30}
+  \coordinate (O) at (0, 0);
+  \coordinate (A) at ($(O) + (\angle:\radius)$);
+  \coordinate (B) at ($(O) + (\angle + 90:\radius)$);
+  \draw (O) circle(\radius);
+  \draw[->] (-\radius - 0.5, 0) -- (\radius + 0.5, 0) node[below] {$x$};
+  \draw[->] (0, -\radius - 0.5) -- (0, \radius + 0.5) node[left] {$y$};
+  \fill[rotate=\angle] (0, 0) rectangle (0.2, 0.2);
+  \draw[very thick, color=green] (O) -- (A) -- (0.866 * \radius, 0) -- cycle;
+  \draw[very thick, color=orange] (O) -- (B) -- (0, 0.866 * \radius) -- cycle;
+  \node[anchor=south west] at (A) {$(\cos\theta, \sin\theta)$};
+  \draw[fill=black] (A) circle (0.05);
+  \node[anchor=south east] at (B) {$(\cos(\theta + \pi/2), \sin(\theta + \pi/2))$};
+  \draw[fill=black] (B) circle (0.05);
+  \draw ($(O) + (0.5, 0)$) arc (0:\angle:0.5);
+  \node at (0.7, 0.2) {$\theta$};
+  \draw ($(O) + (0, 0.5)$) arc (90:90+\angle:0.5);
+  \node at (-0.2, 0.7) {$\theta$};
+\end{tikzpicture}
+\end{document}

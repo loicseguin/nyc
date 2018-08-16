@@ -1,0 +1,8 @@
+# Interférence de la lumière
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/07-interference-lumiere.pdf).
+
+

@@ -1,0 +1,7 @@
+# Ondes sonores
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/03-son.pdf).
+

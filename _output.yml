@@ -1,0 +1,14 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">203-NYC-05</a></li>
+    edit: https://github.com/loicseguin/nyc/edit/master/%s
+bookdown::tufte_html_book:
+    toc: yes
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  citation_package: biblatex
+  keep_tex: yes

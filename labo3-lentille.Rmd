@@ -1,0 +1,66 @@
+# Laboratoire 3 – Lentille convergente {-}
+
+## Consignes {-}
+Chaque équipe doit remettre :
+  - un rapport complet papier, broché, qui inclut tous les éléments décrits
+    plus bas dans l'ordre;
+  - un fichier Excel contenant tous les calculs nécessaires effectués à l'aide
+    de formules appropriées. Le fichier Excel doit être remis sur Léa.
+La date limite de remise est le mardi 27 mars 2018 à 17h.
+
+Je corrigerai le fichier Excel en remplaçant vos données par les miennes. Les
+valeurs finales calculées dans votre fichier devront être correctes.
+
+Vous n'avez pas le droit d'utiliser de listes à puces ou à numéros. Vous
+devez répondre aux exigences en rédigeant un texte continu. Toutes vos
+phrases doivent compter un maximum de 15 mots.  Votre rapport de laboratoire
+doit compter un maximum de 4 pages, incluant les tableaux et le graphique.
+Je ne corrigerai pas les phrases plus longues que 15 mots, ni les pages
+au-delà de la quatrième.
+
+Votre rapport de laboratoire doit inclure les sections suivantes, dans
+l'ordre. 
+
+## Introduction {-}
+
+L'objectif de cette section est de présenter le modèle théorique que vous
+voulez vérifier expérimentalement de même que la méthode d'analyse que vous
+utiliserez.
+
+Présentez la formule des lentilles minces en prenant soin de bien définir
+chacun des symboles qui y apparait. Présentez également les deux expressions
+permettant de calculer le grandissement.
+
+Expliquez comment vous linéarisez l'équation des lentilles minces. Quelles
+sont les quantités qui jouent le rôle de variable indépendante et dépendante?
+Quelle est l'allure du graphique attendue? Quelles sont les valeurs attendues
+des paramètres de la droite de régression?
+
+## Résultats {-}
+
+Présentez toutes les données mesurées directement dans un unique tableau. À
+la suite de ce tableau, justifiez les incertitudes.
+
+Présentez un deuxième tableau comprenant les valeurs calculées à partir des
+mesures directes. Ce tableau doit inclure les valeurs des variables
+indépendante et dépendante de votre modèle linéarisé. Il doit aussi inclure
+le grandissement calculé selon deux méthodes différentes et une colonne qui
+indique si les valeurs de grandissement sont égales.
+
+Présentez un graphique de votre modèle linéarisé incluant les droites
+extrêmes. Ce graphique doit occuper
+un minimum d'une demi-page.
+
+## Conclusion {-}
+
+À partir de vos résultats, expliquez si l'équation des lentilles minces est
+vérifiée. Vos explications doivent inclure une comparaison de la distance
+focale mesurée à partir du graphique à la valeur fournie par le fabricant.
+
+À partir de vos résultats, expliquez si les relations donnant le
+grandissement sont vérifiées. Vous n'avez pas fait de linéarisation, donc
+vous ne pourrez pas faire une vérification de modèle traditionnelle.
+Convainquez-moi que vos données confirment ou non les relations théoriques.
+
+Si vos modèles ne sont pas vérifiés, expliquez les sources probables
+du problème.

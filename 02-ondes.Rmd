@@ -1,0 +1,278 @@
+# Ondes
+
+## Exercices {-}
+
+En classe, nous travaillerons sur les exercices des [diapositives 
+suivantes](./diapos/02-ondes.pdf).
+
+## Résumé des définitons
+
+Onde
+: Perturbation d'un milieu qui se propage dans ce milieu.
+
+Équation d'onde
+: Équation différentielle d'ordre deux qui décrit une onde se propageant dans
+un milieu. La variable dépendante dans cette équation est la variable qui
+décrit l'évolution temporelle et spatiale de la perturbation.
+\begin{equation}
+  \frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2}
+  (\#eq:equationonde)
+\end{equation}
+où $y$ est la variable qui décrit la perturbation, $x$ est la position dans
+l'espace, $t$ est le temps et $v$ est la vitesse de propagation de l'onde.
+
+Fonction d'onde
+: Solution de l'équation d'onde. Toute fonction d'onde peut être représentée
+par une fonction de la forme
+$$y(x, t) = f(x \pm vt).$$
+
+Onde sinusoïdale progressive
+: Solution de l'équation d'onde qui a la forme d'une fonction sinusoïdale :
+\begin{equation}
+  y(x, t) = y_m \sin(kx \pm \omega t + \phi).
+  (\#eq:ondesinusoidale)
+\end{equation}
+
+Amplitude
+: Distance maximale entre la valeur d'équilibre et la valeur maximale
+dans une onde. Elle est représentée par $y_m$ dans l'équation 
+\@ref(eq:ondesinusoidale).
+
+Phase
+: Argument de la fonction sinusoïdale qui décrit une onde sinusoïdale
+progressive, i.e. : $kx \pm \omega t + \phi$ dans l'équation
+\@ref(eq:ondesinusoidale).
+
+Constante de phase
+: Constante dont la valeur est fixée par les conditions initiales de l'onde.
+Elle est représentée par $\phi$ dans l'équation \@ref(eq:ondesinusoidale).
+
+Fréquence angulaire
+: Nombre de radians par lequel la phase d'une onde sinusoïdale progressive
+augmente chaque unité de temps. Elle est représentée par $\omega$ dans 
+l'équation \@ref(eq:ondesinusoidale).
+
+Fréquence
+: Nombre d'oscillations complètes par unité de temps. La fréquence $f$ est
+reliée à la fréquence angulaire par
+$$f = \frac{\omega}{2\pi}$$
+puisqu'une oscillation correspond à une variation de phase de $2\pi$ radians.
+
+Période
+: Durée d'une oscillation complète. La période, $T$, est l'inverse de la
+fréquence donc
+$$T = \frac{1}{f} = \frac{2\pi}{\omega}.$$
+
+Nombre d'onde
+: Nombre de radians par lequel la phase d'une onde sinusoïdale progressive
+change à chaque unité de temps. Elle est représentée par $k$ dans 
+l'équation \@ref(eq:ondesinusoidale).
+
+Longueur d'onde
+: Distance requise pour que l'onde fasse une oscillation complète. La longueur
+d'onde, $\lambda$, est reliée au nombre d'onde par la relation
+$$\lambda = \frac{2\pi}{k}.$$
+
+Vitesse de propagation
+: Vitesse à laquelle l'onde avance dans le milieu dans lequel elle se propage.
+Cette vitesse est reliée au nombre d'onde et à la fréquence angulaire :
+$$v = \frac{\omega}{k} = \frac{\lambda}{T}$$
+
+Réflexion dure
+: Type de réflexion qu'une onde subit lorsqu'elle arrive d'un milieu où elle a
+une grande vitesse de propagation à l'interface avec un milieu où sa vitesse de
+propagation est plus petite. L'onde subit un changement de phase.  Dans le cas
+d'une onde sur une corde, l'onde réfléchie est donc renversée par rapport à
+l'onde incidente.
+
+Réflexion molle
+: Type de réflexion qu'une onde subit lorsqu'elle arrive d'un milieu où elle a
+une faible vitesse de propagation à l'interface avec un milieu où sa vitesse de
+propagation est plus grande. L'onde ne subit pas de changement de phase. Dans
+le cas d'une onde sur une corde, l'onde réfléchie est droite par rapport à
+l'onde incidente.
+
+Superposition
+: Deux ondes de même nature qui se propagent dans le même milieu au même moment
+vont se superposer, c'est-à-dire que la perturbation totale du milieu sera la
+somme des perturbations individuelles :
+$$y(x, t) = y_1(x, t) + y_2(x, t).$$
+
+Interférence
+: Deux ondes de même nature qui se propagent dans le même milieu au même moment
+vont interférer, c'est-à-dire que l'onde résultante pourra avoir une amplitude
+plus grande (interférence constructive) ou plus petite (interférence
+destructive) que les ondes individuelles.
+
+Onde stationnaire
+: La superposition de deux ondes progressives ayant la même fréquence et la
+même vitesse de propagation, mais qui se propagent dans des directions opposées
+peut résulter en une onde dont la vitesse de propagation est nulle, une onde
+stationnaire. Une telle onde possède des **noœuds**, qui ont une amplitude
+nulle, et des **ventres** qui ont une amplitude maximale. Une onde stationnaire
+résultant de la somme de deux ondes sinusoïdale de même amplitude est décrite par
+$$y(x, t) = 2y_m \sin(kx)\cos(\omega t)$$
+
+
+## Superposition d'ondes
+
+<div>
+<div class="figures" style="float: left">
+  <div id="figure1a"></div>
+  <div id="figure1"></div>
+  <div id="figure2a"></div>
+  <div id="figure2"></div>
+</div>
+
+<div class="fctEquation" style="color: rgb(42, 119, 178)">
+$y_1(x, t) =$ <span class="ym1Value"></span>
+  $\sin($<span class="k1Value"></span> $x +$ <span class="w1Value"></span> $t +$
+  <span class="phi1Value"></span>$)$
+</div>
+
+<div class="controls">
+<p>
+<span style="display: inline-block; width: 30px">$y_{m1}$</span>
+<input id="ym1" type="range" min="0" max="5" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$k_1$</span>
+<input id="k1" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\omega_1$</span>
+<input id="w1" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\phi_1$</span>
+<input id="phi1" type="range" min="-10" max="10" step="0.05" style="width: 120px;">
+</p>
+
+</div>
+<div class="fctEquation" style="color: rgb(255, 127, 14)">
+$y_2(x, t) =$ <span class="ym2Value"></span>
+  $\sin($<span class="k2Value"></span> $x +$ <span class="w2Value"></span> $t +$
+  <span class="phi2Value"></span>$)$
+</div>
+
+<div class="controls">
+<p>
+<span style="display: inline-block; width: 30px">$y_{m2}$</span>
+<input id="ym2" type="range" min="0" max="5" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$k_2$</span>
+<input id="k2" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\omega_2$</span>
+<input id="w2" type="range" min="0" max="10" step="0.1" style="width: 120px;">
+<br>
+<span style="display: inline-block; width: 30px">$\phi_2$</span>
+<input id="phi2" type="range" min="-10" max="10" step="0.05" style="width: 120px;">
+</p>
+</div>
+
+</div>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="js/plot.js"></script>
+<script>
+var t = d3.range(0, 20, 0.05);
+var x = d3.range(0, 20, 0.05);
+var y1x = x.map(function(d) { return Math.sin(d); });
+var y1t = t.map(function(d) { return Math.sin(d); });
+var y2x = x.map(function(d) { return Math.sin(d); });
+var y2t = t.map(function(d) { return Math.sin(d); });
+var yx = x.map(function(d, i) { return y1x[i] + y2x[i]; });
+var yt = t.map(function(d, i) { return y1t[i] + y2t[i]; });
+var params = {ym1: 1, k1: 1, w1: 1, phi1: 0,
+              ym2: 1, k2: 1, w2: 1, phi2: 0};
+var plotxtot = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("x")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-10, 10])
+    .colori(2)
+    .toggleZoom();
+var plotx = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("x")
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-6, 6])
+    .toggleZoom();
+var plotttot = lineChart()
+    .yAxisLabel("y")
+    .xAxisLabel("t")
+    .margins({top: 10, right: 20, bottom: 6, left: 60})
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-10, 10])
+    .colori(2)
+    .toggleZoom();
+var plott = lineChart()
+    .xAxisLabel("t")
+    .yAxisLabel("y")
+    .dimensions({width: 480, height: 150})
+    .xdomain([0, 20])
+    .ydomain([-6, 6])
+    .toggleZoom();
+d3.select("#figure1")
+    .data([d3.zip(x, y1x)])
+    .call(plotx);
+d3.select("#figure1")
+    .data([d3.zip(x, y2x)])
+    .call(plotx);
+d3.select("#figure1a")
+    .data([d3.zip(x, yx)])
+    .call(plotxtot);
+d3.select("#figure2")
+    .data([d3.zip(t, y1t)])
+    .call(plott);
+d3.select("#figure2")
+    .data([d3.zip(t, y2t)])
+    .call(plott);
+d3.select("#figure2a")
+    .data([d3.zip(x, yt)])
+    .call(plotttot);
+
+function redraw() {
+  y1t = t.map(function(d) {
+    return params.ym1 * Math.sin(params.w1 * d + params.phi1); });
+  y1x = t.map(function(d) {
+    return params.ym1 * Math.sin(params.k1 * d + params.phi1); });
+  plotx.update(d3.zip(t, y1x), '#line0');
+  plott.update(d3.zip(t, y1t), '#line0');
+
+  y2t = t.map(function(d) {
+    return params.ym2 * Math.sin(params.w2 * d + params.phi2); });
+  y2x = t.map(function(d) {
+    return params.ym2 * Math.sin(params.k2 * d + params.phi2); });
+  plotx.update(d3.zip(t, y2x), '#line1');
+  plott.update(d3.zip(t, y2t), '#line1');
+
+  yx = x.map(function(d, i) { return y1x[i] + y2x[i]; });
+  yt = t.map(function(d, i) { return y1t[i] + y2t[i]; });
+  plotxtot.update(d3.zip(t, yx));
+  plotttot.update(d3.zip(t, yt));
+}
+
+function set_control(varName) {
+  d3.selectAll("." + varName + "Value")
+    .each(function(d) { d3.select(this).html(params[varName]); });
+  document.getElementById(varName).value = params[varName];
+  d3.select("#" + varName)
+    .on("input", function() {
+        params[varName] = +this.value;
+        redraw();
+        d3.selectAll("." + varName + "Value")
+          .each(function(d) { d3.select(this).html(params[varName]); });
+    });
+}
+
+set_control("ym1")
+set_control("ym2")
+set_control("k1")
+set_control("k2")
+set_control("w1")
+set_control("w2")
+set_control("phi1")
+set_control("phi2")
+</script>
