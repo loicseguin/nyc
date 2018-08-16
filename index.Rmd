@@ -1,6 +1,6 @@
 ---
 title: "Ondes, optique et physique moderne"
-subtitle: "203-NYC-05, Hiver 2017"
+subtitle: "203-NYC-05, Automne 2018"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 lang: fr
@@ -9,7 +9,7 @@ bibliography: nyc.bib
 #biblio-style: apalike
 link-citation: yes
 github-repo: loicseguin/nyc
-description: "Notes de cours pour 203-NYC-05, hiver 2018"
+description: "Notes de cours pour 203-NYC-05, automne 2018"
 ---
 
 ```{r setup, include=FALSE}
@@ -20,8 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Résumé du plan de cours {-}
 
-[Diapos utilisées en classe](./diapos/00-presentation.pdf) pour la présentation 
-du plan de cours.
+[Diapos utilisées en classe][Pres] pour la présentation du plan de cours.
 
 **Professeur**  
 Loïc Séguin-Charbonneau  
@@ -32,23 +31,23 @@ Le meilleur moyen pour me joindre est par **mio**.
 
 Période               Local
 -------------------   --------------
-Lundi 13h à 14h       Bureau, D1626
-Mardi 13h à 14h       Bureau, D1626
-Mardi 14h à 15h       CEP, D1621
-Vendredi 12h à 13h    CEP, D1621
+À déterminer
 
-Notez bien que je ne serai pas au collège les mercredi et les jeudi.
+*Notez bien que je ne serai pas au collège les lundis et les jeudis.*
+
 En plus des heures de disponibilité officielles, je suis souvent à mon bureau.
 Ma politique est simple : si je suis au bureau et que ma porte est ouverte,
 vous êtes les bienvenus.
 
-**Coordonnateur du département**  
+**Coordonnateurs du département**  
 Stéphane Proulx  
 Bureau D-1620  
 Poste téléphonique 3099
 
-**Contenu du cours**  
-Les ondes.
+Daniel Comtois
+Bureau D-16??
+Poste téléphonique ????
+
 
 **Évaluations**  
 
@@ -88,30 +87,32 @@ trois jours, incluant les fins de semaine et les jours fériés.
 
 # Calendrier {-}
 
- Semaine   Date      Lundi (2h)                       Mardi (1h)        Vendredi (2h)
----------  -------  ------------                     ------------      ---------------
-   1       22 jan     [PdC](./index.html), [C0][C0]   [C1][C1]          [C1][C1]
-   2       29 jan     [L1][L1]                        [C1][C1]          [C2][C2]
-   3       5 fév      [C2][C2]                        [C2][C2]          [C2][C2]
-   4       12 fév     [C2][C2]                        [C3][C3]          [C3][C3]
-   5       19 fév     [L2][L2]                        [C3][C3]          [C3][C3]
-   6       26 fév     [C4][C4]                        R                 Examen 1
-   7       5 mar      [C4][C4]                        C5                [C6][C6]
-           12 mar                                     Relâche
-   8       19 mar     [L3][L3]                        [C6][C6]          [C6][C6]
-   9       26 mar     L4                              [C6][C6]          Congé
-   10      2 avr      Congé                           [C7][C7], R(ven)  Examen 2
-   11      9 avr      [C7][C7]                        [C7][C7]          C8
-   12      16 avr     C8                              [C9][C9]          [C9][C9]
-   13      23 avr     L5                              [C9][C9]          C10
-   14      30 avr     [L6][L6]                        C13               C13
-   15      7 mai      C13                             C13               R
-           14 mai                                     Examen 3
-           21 mai                                     Test labo (lun)
+ Semaine   Date      Mardi (1h)      Mercredi (2h)          Vendredi (2h)
+---------  -------  ------------    ---------------        ---------------
+4   1       20 août                   [PdC][PdC], [C0][C0]    [C1][C1]
+5   2       27 août   [C1][C1]        [L1][L1]                [C1][C1], [C2][C2]
+3   3       3 sep     [C2][C2]        (Lun)                   [C2][C2]
+5   4       10 sep    [C2][C2]        [C2][C2]                [C2][C2], [C3][C3]
+5   5       17 sep    [L2][L2]        [C3][C3]                [C3][C3]
+5   6       24 sep    [C3][C3]        R                       Examen 1
+5   7       1 oct     [C4][C4]        [C4][C4]                [C4][C4], [C5][C5]
+           8 oct                     Relâche
+5   8       15 oct    [C6][C6]        [L3][L3]                [C6][C6]
+5   9       22 oct    [C6][C6]        [C6][C6]                [C6][C6]
+5   10      29 oct    [C7][C7]        R                       Examen 2
+3   11      5 nov     [C7][C7]        [C7][C7]                JR
+5   12      12 nov    C8              C8                      C8, C9
+5   13      19 nov    [L5][L5]        C9                      C9
+5   14      26 nov    [L6][L6]        C10                     C13
+5   15      3 déc     C13             C13                     C13
+           10 déc     R               Test labo
+           EC                         Examen 3
 
-[C0]: ./rappels-de-trigonometrie.html
-[C1]: ./oscillations.html
-[C2]: ./ondes.html
+[Pres]: https://drive.google.com/open?id=1m9gZgonX7VS8T3eqBpjsQ9pL8ST2fwFg
+[PdC]: ./index.html
+[C0]: https://drive.google.com/open?id=1X26tU5s8tZgm9CDS_Z42YU1yzrLQE3C2
+[C1]: https://drive.google.com/open?id=1HIGwnAAgqi5HxwXhq0dvviWsqOuCHdGu
+[C2]: https://drive.google.com/open?id=1laWi03OwnhSSM7y17sN0CjdjfYDvUyqy
 [C3]: ./ondes-sonores.html
 [C4]: ./ondes-electromagnetiques.html
 [C6]: ./formation-des-images.html
