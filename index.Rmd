@@ -107,9 +107,9 @@ trois jours, incluant les fins de semaine et les jours fériés.
            10 déc    R               Test labo
            EC                        Examen 3
 
-[Pres]: https://docs.google.com/presentation/d/1c5Iy2eUyxbqLBJy5tO4KkAIHxy-pdybhV0YSIMoJiGY/edit?usp=sharing
+[Pres]: https://docs.google.com/presentation/d/1xaxw5zxXWSw35rlKbGXB1qXC2vk-248TaBct2e1P_oM/edit?usp=sharing
 [PdC]: ./index.html
-[C0]: https://docs.google.com/presentation/d/1-ONETgGwcmWK2WuV-sAcEJ3WxIUqoGPdXQlXR1pllTQ/edit?usp=sharing
+[C0]: https://docs.google.com/presentation/d/1pWQlcBJXSkTjmbjgQj2xilU2toqLs8Gx9WYogpKoIA0/edit?usp=sharing
 [C1]: https://docs.google.com/presentation/d/1K3wUYffcH0Q8pshmT-csSTZUmDQt0aj7my9UdrElOso/edit?usp=sharing
 [C2]: ./
 [C3]: ./ondes-sonores.html
