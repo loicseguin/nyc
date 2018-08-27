@@ -1,117 +1,102 @@
 # Laboratoire 1 – Mouvement harmonique simple {-}
 
-Voici la [présentation utilisée](diapos/labo1-mhs.pdf) en classe pour la 
-démonstration de l'équation du mouvement du système-masse ressort vertical.
+Voici la [présentation utilisée][diapos] en classe pour la présentation du
+laboratoire.
 
-Les deux fichiers suivants montrent des exemples de 
-[graphiques](diapos/mauvais-graphiques-solution.pdf) et de 
-[tableaux](diapos/mauvais-tableaux-solution.pdf).
+Les deux fichiers suivants montrent des exemples de [graphiques][ex-graphiques]
+et de [tableaux][ex-tableaux].
 
-## Retour sur le laboratoire {-}
 
-### Évaluer les incertitudes dues au contexte {-}
+## Consignes {-}
+Chaque équipe doit remettre :
 
-Vous devez évaluer les incertitudes dues au contexte expérimental. Si vous
-jugez que l'incertitude liée au contexte est négligeable, vous devez le
-mentionner et justifier brièvement.
+  - un rapport complet papier, broché, qui inclut tous les éléments décrits
+    plus bas dans l'ordre;
+  - un fichier Excel contenant tous les calculs nécessaires effectués à l'aide
+    de formules appropriées. Le fichier Excel doit être remis sur Léa.
 
-**Pourquoi?** Il est important que vous appreniez à reconnaître les facteurs
-qui influencent la qualité des résultats expérimentaux.
+La date limite de remise est le jeudi 6 septembre 2018 à 17h.
 
-### Incertitude sur les cylindres métalliques {-}
+Je corrigerai le fichier Excel en remplaçant vos données par les miennes. Les
+valeurs finales calculées dans votre fichier devront être correctes.
 
-L'incertitude sur la masse des cylindres métalliques est 0,10% de la valeur
-indiquée sur le cylindre. Attention, 0,10% n'est pas 10% ni 1% ni 0,10 ni 0,01.
+Dans votre texte, vous n'avez pas le droit d'utiliser de listes à puces ou à
+numéros. Vous devez répondre aux exigences en rédigeant un texte continu.
+Toutes vos phrases doivent compter un maximum de 20 mots.  Votre rapport de
+laboratoire doit compter un maximum de 4 pages, incluant les tableaux et les
+graphiques.  Je ne corrigerai pas les phrases plus longues que 20 mots, ni les
+pages au-delà de la quatrième.
 
-**Pourquoi?** C'est l'incertitude spécifiée par le fabricant et vous devez être
-capable de calculer un pourcentage convenablement.
+Votre rapport de laboratoire doit inclure les sections suivantes, dans
+l'ordre. 
 
-### Écart relatif {-}
+## Introduction {-}
 
-Quand vous calculez un écart relatif, soit vous laisser le résultat en notation
-décimale soit vous l'écrivez avec la notation %, mais vous devez porter
-attention à la valeur que vous obtenez. Par exemple, si vous voulez calculer
-l'écart relatif entre 12,1 et 11,9 en utilisant 11,9 comme valeur de référence,
-le calcul approprié est
-$$\frac{\left| 12,1 - 11,9 \right|}{11.9} = 0,0168.$$
-Vous pouvez laisser ce résultat comme 0,017 ou bien l'écrire en pourcentage
-comme 1,7%.
+L'objectif de cette section est de présenter le modèle théorique que vous
+voulez vérifier expérimentalement de même que la méthode d'analyse que vous
+utiliserez.
 
-**Pourquoi?** Si vous ne portez pas attention à la notation, vous vous
-retrouvez souvent avec une incertitude relative 100 fois trop petite parce que
-vous interprétez le résultat décimal comme un pourcentage. Dans l'exemple
-ci-dessus, il serait incorrect d'écrire 0,017%.
+Présentez le modèle du mouvement harmonique simple pour un système
+bloc-ressort (équations 6 et 8 du guide de laboratoire). Prenez soin de bien
+définir toutes les variables qui apparaissent dans les équations.
 
-### Titre des tableaux {-}
+Résumez la méthode d'analyse que vous utiliserez. Pour valider l'expression de
+la position du bloc en fonction du temps (équation 6), vous ferez une régression
+sinusoïdale. Comment obtiendrez-vous les mesures pour faire cette régression?
+Pour valider l'expression de la fréquence angulaire du système, vous comparerez
+les valeurs obtenues par régression sinusoïdale au modèle de l'équation 8. Comment
+obtiendrez-vous une valeur de référence pour la constante du ressort (mesure
+obtenue par la méthode statique)? Comment linéariserez-vous l'équation 8 pour
+vérifier le modèle?
 
-Le titre des tableaux doit être descriptif, il doit décrire le contenu du
-tableau en évitant le plus possible de répéter le titre des colonnes. Un bon
-titre de tableau commence souvent par «Propriétés de» ou «Caractéristiques de»
-suivi d'une brève description du montage sur lequel les mesures ont été
-effectuées.
+Lorsque vous linéarisez une équation, expliquez quelles sont les quantités qui
+jouent le rôle de variable indépendante et dépendante.  Quelle est l'allure du
+graphique attendue? Quelles sont les valeurs attendues des paramètres (pente et
+ordonnée à l'origine) de la droite de régression?
 
-**Pourquoi?** Le lecteur doit être facilement en mesure de déterminer ce que le
-tableau contient, à quoi il fait référence et comment interpréter les valeurs
-qui s'y trouvent.
+## Résultats {-}
 
-### Notation {-}
+Cette section comportera trois tableaux et trois graphiques. Le premier tableau
+présente les valeurs de fréquence angulaire pour trois amplitudes différentes.
+Ces données vous permettront de vérifier si la fréquence angulaire du MHS est
+indépendante de l'amplitude. À la suite de ce tableau, justifiez les
+incertitudes.
 
-Vous devez écrire les indices, les exposants et les symboles correctement. Dans
-Excel, vous pouvez mettre des indices et des exposants partout, il suffit de
-trouver la fenêtre de mise en forme de police (souvent accessible via un clic
-droit sur la souris).
+Le deuxième tableau présente les données mesurées directement (allongement du
+ressort et fréquence angulaire pour différentes masses suspendues). À
+la suite de ce tableau, justifiez les incertitudes.
 
-**Pourquoi?** La notation permet de communiquer efficacement, il est important
-de la respecter au même titre qu'il est important de respecter les règles de
-grammaire.
+Le troisième tableau présente les données qui seront utilisées pour tracer les
+graphiques. Ce tableau doit inclure les valeurs des variables
+indépendante et dépendante des modèles linéarisés.
 
-### Formules dans Excel {-}
+Le premier graphique est une capture d'écran de Capstone qui montre le
+mouvement du bloc et la régression sinusoïdale. Le deuxième graphique montre la
+relation entre les variables qui vous permet de déduire la valeur de référence
+de la constante du ressort. Le troisième graphique présente la version
+linéarisée de l'équation 8. Chacun des graphiques doit occuper un minimum d'une
+demi-page.
 
-Toute quantité qui peut-être calculée doit l'être au moyen d'une formule dans
-Excel. Vous devez utiliser adéquatement les fonctions Excel comme `ABS`,
-`RACINE`, `PENTE`, `ORDONNEE.ORIGINE`, `PI`, etc.
+## Conclusion {-}
 
-**Pourquoi?** Excel est un outil de travail qui permet de faire beaucoup de
-calculs plus rapidement qu'avec une calculatrice. Pour devenir efficace avec
-Excel, il faut l'utiliser fréquemment.
+À partir de vos résultats, expliquez si le modèle du mouvement harmonique
+simple est approprié pour décrire le mouvement du système bloc-ressort. Est-ce
+que l'amplitude est bien indépendante de la fréquence angulaire? Est-ce que la
+position en fonction du temps du bloc est bien représentée par une fonction
+sinusoïdale? Est-ce que la pente et l'ordonnée à l'origine du graphique obtenu
+à partir des données expérimentales correspondent aux valeurs attendues?
 
-### Prolonger les droites extrêmes dans les graphiques {-}
+Si vos modèles ne sont pas vérifiés, expliquez les sources probables
+du problème.
 
-Vous devez prolonger les toutes les droites dans vos graphiques de telle sorte
-qu'elles atteignent l'axe des ordonnées.
+Dans cette expérience, le ressort n'est pas idéal et s'étire sous l'effet d'une portion
+de sa masse. On aurait dû faire l'analyse avec une masse suspendue effective
+qui inclut une partie de la masse du ressort
+$$m_\mathrm{eff} = m + \xi M_\mathrm{ressort} \;\;\text{où}\;\; \xi \in [0, 1].$$
+Sauriez-vous, à partir de vos données expérimentales, déterminer
+la fraction de la masse du ressort qui aurait due être considérée dans votre
+analyse? 
 
-**Pourquoi?** On veut fournir le maximum d'information visuelle. En
-particulier, voir l'endroit où les droites extrêmes touchent à l'axe des
-ordonnées permet de rapidement estimer l'incertitude sur l'ordonnée à
-l'origine.
-
-### Pas de $R^2$ pour les droites extrêmes {-}
-
-N'incluez pas le coefficient de détermination pour les droites extrêmes.
-
-**Pourquoi?** Ce coefficient permet de quantifier la qualité de l'ajustement
-entre le modèle (souvent un modèle linéaire) et les données. Dans le cas des
-droites extrêmes, vous faites passer une droite par deux points ce qu'on peut
-toujours faire à la perfection. Par conséquent, le coefficient de détermination
-des droites extrêmes sera nécessairement 1. Ce coefficient ne communique donc
-aucune information utile.
-
-### Cohérence et conclusion {-}
-
-Tenez vous le pour dit : vous ne ferez pas de découvertes révolutionnaires dans
-ce cours. Ce que vous ferez sera de valider expérimentalement que la théorie
-apprise en classe fonctionne réellement. Par conséquent, vos modèles devraient
-plus souvent qu'autrement être vérifiés. Si ce n'est pas le cas, votre premier
-réflexe doit toujours être de réviser vos calculs. Dans la majorité des cas,
-vos modèles ne sont pas vérifiés parce que vous faites des erreurs de calcul.
-Si, par malheur, tout vos calculs sont bons et qu'il s'avère que le problème en
-est un de manipulation, vous devez réfléchir aux sources probables d'erreurs.
-Ne blâmez pas le matériel, il fonctionne bien. Identifiez des éléments qui vous
-semblaient les plus difficiles expérimentalement et qui, selon vous, expliquent
-pourquoi vos données sont incorrectes.
-
-La conclusion doit faire un retour sur *tous* les buts. Pour certains de ces
-buts, une vérification de modèle peut s'imposer. Votre conclusion doit être
-présentée comme un texte continu qui forme un tout (qui peut inclure des
-paragraphes), pas une liste numérotée ou une liste à puce.
-
+[diapos]: https://docs.google.com/presentation/d/1OZOfg-EuCPnln_rRBOe7pqa1MkdNUmCy7spsAJ_iROU/edit?usp=sharing
+[ex-graphiques]: https://drive.google.com/file/d/166hLbe2DLxOorlTPa4OV8awzhpjaq6ol/view?usp=sharing
+[ex-tableaux]: https://drive.google.com/file/d/1N7f6yDzW4wkDO7DFz8jS26oXh1-OsqsO/view?usp=sharing

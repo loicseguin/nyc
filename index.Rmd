@@ -93,7 +93,7 @@ trois jours, incluant les fins de semaine et les jours fériés.
  Semaine   Date      Mardi (1h)      Mercredi (2h)          Vendredi (2h)
 ---------  -------  ------------    ---------------        ---------------
   1        20 août                   [PdC][PdC], [C0][C0]    [C1][C1]
-  2        27 août   [C1][C1]        L1                      [C1][C1], C2
+  2        27 août   [C1][C1]        [L1][L1]                [C1][C1], C2
   3        3 sep     C2              (Lun)                   C2
   4        10 sep    C2              C2                      C2, C3
   5        17 sep    C3              L2                      C3
@@ -121,7 +121,7 @@ trois jours, incluant les fins de semaine et les jours fériés.
 [C6]: ./formation-des-images.html
 [C7]: ./interference-de-la-lumiere.html
 [C9]: ./relativite-restreinte.html
-[L1]: https://docs.google.com/presentation/d/1OZOfg-EuCPnln_rRBOe7pqa1MkdNUmCy7spsAJ_iROU/edit?usp=sharing
+[L1]: ./laboratoire-1-mouvement-harmonique-simple.html
 [L3]: ./laboratoire-3-lentille-convergente.html
 [L6]: ./laboratoire-6-effet-photoelectrique.html
 [L2]: ./grille-de-correction-pour-les-laboratoires.html
