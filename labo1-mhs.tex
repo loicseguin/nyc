@@ -1,0 +1,175 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\hypertarget{laboratoire-1-mouvement-harmonique-simple}{%
+\section*{Laboratoire 1 -- Mouvement harmonique
+simple}\label{laboratoire-1-mouvement-harmonique-simple}}
+\addcontentsline{toc}{section}{Laboratoire 1 -- Mouvement harmonique
+simple}
+
+
+\hypertarget{consignes}{%
+\subsection*{Consignes}\label{consignes}}
+\addcontentsline{toc}{subsection}{Consignes}
+
+Chaque équipe doit remettre :
+
+\begin{itemize}
+\tightlist
+\item
+  un rapport complet papier, broché, qui inclut tous les éléments
+  décrits plus bas dans l'ordre;
+\item
+  un fichier Excel contenant tous les calculs nécessaires effectués à
+  l'aide de formules appropriées. Le fichier Excel doit être remis sur
+  Léa.
+\end{itemize}
+
+La date limite de remise est le jeudi 6 septembre 2018 à 17h.
+
+Je corrigerai le fichier Excel en remplaçant vos données par les
+miennes. Les valeurs finales calculées dans votre fichier devront être
+correctes.
+
+Dans votre texte, vous n'avez pas le droit d'utiliser de listes à puces
+ou à numéros. Vous devez répondre aux exigences en rédigeant un texte
+continu. Toutes vos phrases doivent compter un maximum de 20 mots. Votre
+rapport de laboratoire doit compter un maximum de 4 pages, incluant les
+tableaux et les graphiques. Je ne corrigerai pas les phrases plus
+longues que 20 mots, ni les pages au-delà de la quatrième.
+
+Votre rapport de laboratoire doit inclure les sections suivantes, dans
+l'ordre.
+
+\hypertarget{introduction}{%
+\subsection*{Introduction}\label{introduction}}
+\addcontentsline{toc}{subsection}{Introduction}
+
+L'objectif de cette section est de présenter le modèle théorique que
+vous voulez vérifier expérimentalement de même que la méthode d'analyse
+que vous utiliserez.
+
+Présentez le modèle du mouvement harmonique simple pour un système
+bloc-ressort (équations 6 et 8 du guide de laboratoire). Prenez soin de
+bien définir toutes les variables qui apparaissent dans les équations.
+
+Résumez la méthode d'analyse que vous utiliserez. Pour valider
+l'expression de la position du bloc en fonction du temps (équation 6),
+vous ferez une régression sinusoïdale. Comment obtiendrez-vous les
+mesures pour faire cette régression? Pour valider l'expression de la
+fréquence angulaire du système, vous comparerez les valeurs obtenues par
+régression sinusoïdale au modèle de l'équation 8. Comment
+obtiendrez-vous une valeur de référence pour la constante du ressort
+(mesure obtenue par la méthode statique)? Comment linéariserez-vous
+l'équation 8 pour vérifier le modèle?
+
+Lorsque vous linéarisez une équation, expliquez quelles sont les
+quantités qui jouent le rôle de variable indépendante et dépendante.
+Quelle est l'allure du graphique attendue? Quelles sont les valeurs
+attendues des paramètres (pente et ordonnée à l'origine) de la droite de
+régression?
+
+\hypertarget{ruxe9sultats}{%
+\subsection*{Résultats}\label{ruxe9sultats}}
+\addcontentsline{toc}{subsection}{Résultats}
+
+Cette section comportera trois tableaux et trois graphiques. Le premier
+tableau présente les valeurs de fréquence angulaire pour trois
+amplitudes différentes. Ces données vous permettront de vérifier si la
+fréquence angulaire du MHS est indépendante de l'amplitude. À la suite
+de ce tableau, justifiez les incertitudes.
+
+Le deuxième tableau présente les données mesurées directement
+(allongement du ressort et fréquence angulaire pour différentes masses
+suspendues). À la suite de ce tableau, justifiez les incertitudes.
+
+Le troisième tableau présente les données qui seront utilisées pour
+tracer les graphiques. Ce tableau doit inclure les valeurs des variables
+indépendante et dépendante des modèles linéarisés.
+
+Le premier graphique est une capture d'écran de Capstone qui montre le
+mouvement du bloc et la régression sinusoïdale. Le deuxième graphique
+montre la relation entre les variables qui vous permet de déduire la
+valeur de référence de la constante du ressort. Le troisième graphique
+présente la version linéarisée de l'équation 8. Chacun des graphiques
+doit occuper un minimum d'une demi-page.
+
+\hypertarget{conclusion}{%
+\subsection*{Conclusion}\label{conclusion}}
+\addcontentsline{toc}{subsection}{Conclusion}
+
+À partir de vos résultats, expliquez si le modèle du mouvement
+harmonique simple est approprié pour décrire le mouvement du système
+bloc-ressort. Est-ce que l'amplitude est bien indépendante de la
+fréquence angulaire? Est-ce que la position en fonction du temps du bloc
+est bien représentée par une fonction sinusoïdale? Est-ce que la pente
+et l'ordonnée à l'origine du graphique obtenu à partir des données
+expérimentales correspondent aux valeurs attendues?
+
+Si vos modèles ne sont pas vérifiés, expliquez les sources probables du
+problème.
+
+Dans cette expérience, le ressort n'est pas idéal et s'étire sous
+l'effet d'une portion de sa masse. On aurait dû faire l'analyse avec une
+masse suspendue effective qui inclut une partie de la masse du ressort
+\[m_\mathrm{eff} = m + \xi M_\mathrm{ressort} \;\;\text{où}\;\; \xi \in [0, 1].\]
+Sauriez-vous, à partir de vos données expérimentales, déterminer la
+fraction de la masse du ressort qui aurait due être considérée dans
+votre analyse?
+
+\end{document}

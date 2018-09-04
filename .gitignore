@@ -18,3 +18,10 @@ images/triangle-rect.pdf
 images/triangle-rect.png
 book-output
 videos
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
