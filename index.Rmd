@@ -94,8 +94,8 @@ trois jours, incluant les fins de semaine et les jours fériés.
 ---------  -------  ------------    ---------------        ---------------
   1        20 août                   [PdC][PdC], [C0][C0]    [C1][C1]
   2        27 août   [C1][C1]        [L1][L1]                [C1][C1]
-  3        3 sep     [C1][C1]        (Lun)                   C2
-  4        10 sep    C2              C2                      C2, C3
+  3        3 sep     [C1][C1]        (Lun)                   [C2][C2]
+  4        10 sep    [C2][C2]        [C2][C2]                [C2][C2], C3
   5        17 sep    C3              L2                      C3
   6        24 sep    C3              R                       Examen 1
   7        1 oct     C4              C4                      C4, C5
@@ -115,7 +115,7 @@ trois jours, incluant les fins de semaine et les jours fériés.
 [PdC]: ./index.html
 [C0]: ./rappels-de-trigonometrie.html
 [C1]: ./oscillations.html
-[C2]: ./
+[C2]: ./ondes.html
 [C3]: ./ondes-sonores.html
 [C4]: ./ondes-electromagnetiques.html
 [C6]: ./formation-des-images.html

@@ -195,6 +195,6 @@ knitr::include_graphics(rep('images/arctan.png'))
 ## Exercices {-}
 
 En classe, nous travaillerons sur les exercices des [diapositives
-suivantes][C0]
+suivantes][C0diapos]
 
-[C0]: https://docs.google.com/presentation/d/1pWQlcBJXSkTjmbjgQj2xilU2toqLs8Gx9WYogpKoIA0/edit?usp=sharing
+[C0diapos]: https://docs.google.com/presentation/d/1pWQlcBJXSkTjmbjgQj2xilU2toqLs8Gx9WYogpKoIA0/edit?usp=sharing

@@ -3,7 +3,7 @@
 ## Exercices {-}
 
 En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/02-ondes.pdf).
+suivantes][C2diapos].
 
 ## Résumé des définitons
 
@@ -276,3 +276,5 @@ set_control("w2")
 set_control("phi1")
 set_control("phi2")
 </script>
+
+[C2diapos]: https://docs.google.com/presentation/d/1F_qGEigxyhEB_4e2l42NMirouCP9RO_DOlp_TYmgjto/edit?usp=sharing
