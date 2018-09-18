@@ -2,6 +2,6 @@
 
 ## Exercices {-}
 
-En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/03-son.pdf).
+En classe, nous travaillerons sur les exercices des
+[diapositives suivantes](https://docs.google.com/presentation/d/1CzXwevUFzP0RnKyLAvJBl6YmIuMhhgD3Jah6w3TG1MY/edit?usp=sharing).
 
