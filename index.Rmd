@@ -95,8 +95,8 @@ trois jours, incluant les fins de semaine et les jours fériés.
   1        20 août                   [PdC][PdC], [C0][C0]    [C1][C1]
   2        27 août   [C1][C1]        [L1][L1]                [C1][C1]
   3        3 sep     [C1][C1]        (Lun)                   [C2][C2]
-  4        10 sep    [C2][C2]        [C2][C2]                [C2][C2], C3
-  5        17 sep    C3              L2                      C3
+  4        10 sep    [C2][C2]        [C2][C2]                [C2][C2]
+  5        17 sep    [C3][C3]        [L2][L2]                [C3][C3]
   6        24 sep    C3              R                       Examen 1
   7        1 oct     C4              C4                      C4, C5
            8 oct                     Relâche
@@ -122,7 +122,6 @@ trois jours, incluant les fins de semaine et les jours fériés.
 [C7]: ./interference-de-la-lumiere.html
 [C9]: ./relativite-restreinte.html
 [L1]: ./laboratoire-1-mouvement-harmonique-simple.html
+[L2]: ./laboratoire-2-ondes-stationnaires-sur-une-corde.html
 [L3]: ./laboratoire-3-lentille-convergente.html
 [L6]: ./laboratoire-6-effet-photoelectrique.html
-[L2]: ./grille-de-correction-pour-les-laboratoires.html
-

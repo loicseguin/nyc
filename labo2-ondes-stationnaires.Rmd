@@ -1,0 +1,75 @@
+# Laboratoire 2 – Ondes stationnaires sur une corde {-}
+
+Voici la [présentation utilisée][diapos-lab2] en classe pour la présentation du
+laboratoire.
+
+
+## Consignes {-}
+Chaque équipe doit remettre :
+
+  - un rapport complet papier, broché, qui inclut tous les éléments décrits
+    plus bas dans l'ordre;
+  - un fichier Excel contenant tous les calculs nécessaires effectués à l'aide
+    de formules appropriées. Le fichier Excel doit être remis sur Léa.
+
+La date limite de remise est le jeudi 27 septembre 2018 à 17h.
+
+Je corrigerai le fichier Excel en remplaçant vos données par les miennes. Les
+valeurs finales calculées dans votre fichier devront être correctes.
+
+Dans votre texte, vous n'avez pas le droit d'utiliser de listes à puces ou à
+numéros. Vous devez répondre aux exigences en rédigeant un texte continu.
+Toutes vos phrases doivent compter un maximum de 20 mots.  Votre rapport de
+laboratoire doit compter un maximum de 4 pages, incluant les tableaux et les
+graphiques.  Je ne corrigerai pas les phrases plus longues que 20 mots, ni les
+pages au-delà de la quatrième.
+
+Votre rapport de laboratoire doit inclure les sections suivantes, dans
+l'ordre. 
+
+## Introduction {-}
+
+L'objectif de cette section est de présenter le modèle théorique que vous
+voulez vérifier expérimentalement de même que la méthode d'analyse que vous
+utiliserez.
+
+Présentez l'équation qui donne les fréquences des ondes stationnaires sur une
+corde fixée aux deux extrémités (équation 1 du guide de laboratoire). Prenez
+soin de bien définir toutes les variables qui apparaissent dans l'équation.
+
+Résumez la méthode d'analyse que vous utiliserez. Comment linéariserez-vous
+l'équation 1 pour vérifier le modèle?  expliquez quelles sont les quantités qui
+jouent le rôle de variable indépendante et dépendante.  Quelle est l'allure du
+graphique attendue? Quelles sont les valeurs attendues des paramètres (pente et
+ordonnée à l'origine) de la droite de régression?
+
+Pour vérifier les valeurs des paramètres de la droite de régression, vous aurez
+besoin d'une valeur de référence pour la vitesse des ondes dans la corde.
+Expliquez brièvement comment vous obtiendrez cette valeur de référence.
+
+
+## Résultats {-}
+
+Cette section comportera deux tableaux et un graphique.
+
+Le premier tableau présente les caractéristiques de la corde. Ces valeurs sont
+nécessaires à la détermination de la valeur de référence de la vitesse des
+ondes dans la corde.  À la suite de ce tableau, justifiez les incertitudes.
+
+Le deuxième tableau présente les fréquences des différents modes de vibration.
+Ces valeurs vous permettront de vérifier le modèle.  À la suite de ce tableau,
+justifiez les incertitudes.
+
+Le graphique présente la version linéarisée de l'équation 1. Il doit occuper un
+minimum d'une demi-page.
+
+## Conclusion {-}
+
+À partir de vos résultats, expliquez si l'équation qui donne la fréquence des
+modes de vibration est vérifiée.
+
+Si votre modèle n'est pas vérifié, expliquez les sources probables
+du problème.
+
+
+[diapos-lab2]: https://docs.google.com/presentation/d/100NkX6VM8EW8qba0J6TFgYaIDpLRaBi9J6GIT_u-bhU/edit?usp=sharing
