@@ -2,6 +2,5 @@
 
 ## Exercices {-}
 
-En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/04-lumiere.pdf).
-
+En classe, nous travaillerons sur les exercices des
+[diapositives suivantes](https://docs.google.com/presentation/d/1wOFw0a2i1Jhi_ft5azDpICDCMExML72g0-lpBxGsDDI/edit?usp=sharing).
