@@ -98,10 +98,10 @@ trois jours, incluant les fins de semaine et les jours fériés.
   4        10 sep    [C2][C2]        [C2][C2]                [C2][C2]
   5        17 sep    [C3][C3]        [L2][L2]                [C3][C3]
   6        24 sep    [C3][C3]        R                       Examen 1
-  7        1 oct     [C4][C4]        [C4][C4]                [C4][C4], C5
+  7        1 oct     [C4][C4]        [C4][C4]                [C4][C4]
            8 oct                     Relâche
-  8        15 oct    C6              [L3][L3]                C6
-  9        22 oct    C6              C6                      C6
+  8        15 oct    C5              [L3][L3]                C5
+  9        22 oct    [C6][C6]        [C6][C6]                [C6][C6]
   10       29 oct    C7              R                       Examen 2
   11       5 nov     C7              C7                      JR
   12       12 nov    C8              C8                      C8, C9
