@@ -3,6 +3,6 @@
 ## Exercices {-}
 
 En classe, nous travaillerons sur les exercices des [diapositives 
-suivantes](./diapos/07-interference-lumiere.pdf).
+suivantes](https://docs.google.com/presentation/d/1gM7rHrK82zjUseR6gt5c8nFY1SWmsiwRE1FvGJbSHic/edit?usp=sharing).
 
 
