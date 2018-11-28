@@ -3,6 +3,7 @@
 ## Consignes {-}
 
 Chaque équipe doit remettre :
+
   - un rapport complet papier, broché, qui inclut tous les éléments décrits
     plus bas dans l'ordre;
   - un fichier Excel contenant tous les calculs nécessaires effectués à l'aide
@@ -10,16 +11,16 @@ Chaque équipe doit remettre :
     constante de Planck, le travail d'extraction et la fréquence seuil. Le
     fichier Excel doit être remis sur Léa.
 
-La date limite de remise est le mardi 8 mai 2018 à 17h.
+La date limite de remise est le mardi 5 décembre 2018 à 17h.
 
 Je corrigerai le fichier Excel en remplaçant vos données par les miennes. Les
 valeurs finales calculées dans votre fichier devront être correctes.
 
 Vous n'avez pas le droit d'utiliser de listes à puces ou à numéros. Vous
 devez répondre aux exigences en rédigeant un texte continu. Toutes vos
-phrases doivent compter un maximum de 15 mots.  Votre rapport de laboratoire
+phrases doivent compter un maximum de 20 mots.  Votre rapport de laboratoire
 doit compter un maximum de 4 pages, incluant les tableaux et le graphique.
-Je ne corrigerai pas les phrases plus longues que 15 mots, ni les pages
+Je ne corrigerai pas les phrases plus longues que 20 mots, ni les pages
 au-delà de la quatrième.
 
 Votre rapport de laboratoire doit inclure les sections suivantes, dans

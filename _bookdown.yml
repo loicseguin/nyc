@@ -27,10 +27,10 @@ rmd_files: ["index.Rmd",
             "04-lumiere.Rmd",
             "06-formation-images.Rmd",
             "07-interference.Rmd",
-            #"09-relativite-restreinte.Rmd",
+            "09-relativite-restreinte.Rmd",
             #"grille-correction.Rmd",
             "labo1-mhs.Rmd",
             "labo2-ondes-stationnaires.Rmd",
             "labo3-lentille.Rmd",
-            #"labo6-effet-photoelectrique.Rmd"
+            "labo6-effet-photoelectrique.Rmd"
             ]
